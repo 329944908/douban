@@ -1,0 +1,320 @@
+/*
+* @Author: liumin
+* @Date:   2016-05-09 07:47:45
+* @Last Modified by:   liumin
+* @Last Modified time: 2016-05-11 21:20:47
+*/
+body {
+  font-size: 14px;
+  font-family: "microsoft yahei";
+  background: #F5F5F5;
+}
+body a {
+  text-decoration: none;
+  color: #373737;
+}
+body a:hover {
+  text-decoration: none;
+  color: #19B4ED;
+}
+
+.maxw {
+  max-width: 768px;
+}
+
+.container-fluid {
+  padding: 20px 0;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.title-left, .test .tipleft {
+  width: 120px;
+  background: #19B4ED;
+  border-radius: 0 5px 5px 0;
+}
+.title-left h3, .test .tipleft h3 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.input1, .input3 {
+  padding: 0 45px;
+  padding-right: 85px;
+  width: 100%;
+}
+.input1 label, .input3 label {
+  position: absolute;
+  text-align: left !important;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .input1 label, .input3 label {
+    line-height: 35px;
+  }
+}
+.input1 input, .input3 input {
+  width: 100%;
+  margin-left: 70px;
+}
+
+.input3 {
+  padding-right: 65px;
+}
+.input3 input {
+  margin-left: 50px;
+}
+
+.input1-radio {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  padding-left: 27px;
+  line-height: 25px;
+}
+.input1-radio a {
+  font-weight: 100px;
+  color: #999;
+}
+
+.input2 {
+  padding: 0 45px;
+}
+
+.register, .sign {
+  width: 100%;
+}
+.register form, .sign form {
+  margin-top: 20px;
+}
+
+.sign {
+  background: #fff;
+}
+.sign .yzm {
+  position: relative;
+  padding-right: 170px;
+}
+.sign .yzm img {
+  height: 35px;
+  right: -140px;
+  top: 0px;
+  position: absolute;
+}
+.sign .btn-submit {
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background: #19B4ED;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.btn-submit:hover {
+  background: #0081ba;
+  color: #fff;
+}
+
+.gosign, .goregister {
+  padding-right: 45px;
+  margin-top: 10px;
+}
+.gosign a, .goregister a {
+  color: #999;
+  font-size: 16px;
+}
+
+.goregister a {
+  color: #19B4ED;
+}
+.goregister a:hover {
+  color: #19B4ED;
+}
+
+.guanggao {
+  background: #F5F5F5;
+  padding: 20px 0 40px;
+}
+.guanggao .title1 {
+  font-size: 20px;
+  color: #19B4ED;
+  font-weight: bold;
+}
+.guanggao .icon1 {
+  background: #19B4ED;
+  border-radius: 100px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 16px;
+}
+.guanggao .info {
+  font-size: 18px;
+  color: #999;
+  font-weight: bold;
+}
+.guanggao .info2 {
+  font-size: 18px;
+  color: #999;
+}
+
+.gonggao {
+  padding: 40px 0 0;
+}
+.gonggao .gg {
+  font-size: 20px;
+}
+.gonggao .btn-ty {
+  background: #7AC520;
+  color: #fff;
+  border-radius: 100px;
+  max-width: 150px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.gonggao .btn-ty:hover {
+  background: #479200;
+  color: #fff;
+}
+.gonggao .btn-zs {
+  background: #19B4ED;
+  color: #fff;
+  border-radius: 100px;
+  max-width: 150px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.gonggao .btn-zs:hover {
+  background: #0081ba;
+  color: #fff;
+}
+
+.welcome {
+  padding: 7px;
+  height: 35px;
+  padding-left: 30px;
+}
+.welcome p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.biaoti {
+  background: #19B4ED;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 0;
+}
+
+.user-info {
+  padding: 20px;
+}
+.user-info li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.px20 {
+  width: 20px;
+  opacity: 0;
+}
+
+.test .testtitle {
+  color: #19B4ED;
+  font-size: 20px;
+}
+.test .questionstip {
+  font-size: 12px;
+  padding: 2px;
+  border: #19B4ED;
+  border: 1px #19B4ED solid;
+  color: #19B4ED;
+  margin-right: 7px;
+}
+.test .questions-text {
+  font-size: 16px;
+  line-height: 25px;
+}
+.test .test-menus {
+  width: 100%;
+  margin-top: 20px;
+}
+.test .test-menus .test-menu {
+  width: 20%;
+  float: left;
+  padding: 0 2px;
+}
+.test .btn-test-menu {
+  background: #19B4ED;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px 0;
+}
+.test .btn-test-menu:hover {
+  background: #0081ba;
+  color: #fff;
+}
+.test .question-menu {
+  max-width: 270px;
+}
+.test .question-menu .btn {
+  background: #19B4ED;
+  color: #fff;
+  max-width: 80px;
+  width: 100%;
+}
+.test .question-menu .btn:hover {
+  background: #0081ba;
+  color: #fff;
+}
+.test .question-menu .btn-question-submit {
+  max-width: 80px;
+  background: #7AC520;
+  color: #fff;
+}
+.test .question-menu .btn-question-submit:hover {
+  background: #479200;
+  color: #fff;
+}
+.test .questions {
+  padding: 30px;
+}
+.test .questions .checkbox {
+  font-size: 18px;
+}
+.test .questions .checkbox input {
+  margin-right: 10px;
+}
+.test .result p {
+  font-size: 16px;
+  color: red;
+  padding: 0 20px;
+}
+.test .analysis p {
+  padding: 0 20px;
+  font-size: 16px;
+  text-indent: 2em;
+}
+.test .tipleft {
+  background: #004F6D;
+  width: 100px;
+}
+.test .tipleft h4 {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px;
+  padding-right: 20px;
+}

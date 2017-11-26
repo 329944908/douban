@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <include file="Public/header" />
+    <!-- 自定义样式可以直接写在这 -->
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>商家管理</h5>
+                </div>
+                <!--  -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox">
+                            <div class="ibox-content">
+                                <form role="form" class="form-inline" action="{:U('admin/seller/search')}" method="get" target="_self">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2" class="">名称:</label>
+                                        <input type="text" placeholder="请输入店铺名" id="exampleInputEmail2" class="form-control" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword2" class="">:地点</label>
+                                        <select class="form-control" name="address">
+                                            <?php foreach ($addresslists as $value) { ?>
+                                                <option value="<?php echo $value['address']?>"> <?php echo $value['address']?> </option>
+                                            <?php } ?>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-white" type="submit">搜索</button>
+                                    <a href="{:U('admin/seller/edit')}" class="btn btn-primary" type="submit" target="_self">新增</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="ibox-content">
+
+                    <table class="table table-striped table-bordered table-hover dataTables-example">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>店铺名</th>
+                            <th>地址</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="lists" id="vo">
+                            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.address}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                         <!-- <tfoot> -->
+                            <tr>
+                                <td colspan="6">
+                                    {$page}
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/footer" />
+</body>
+</html>

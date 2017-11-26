@@ -1,0 +1,288 @@
+/*
+* @Author: liumin
+* @Date:   2016-05-09 07:47:45
+* @Last Modified by:   liumin
+* @Last Modified time: 2016-05-09 07:50:20
+*/
+html, body, .content, .menu-left {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "microsoft yahei";
+  background: #E9DEEF;
+
+}
+body a {
+  text-decoration: none;
+  color: #373737;
+}
+body a:hover {
+  text-decoration: none;
+  color: #19B4ED;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  background: #fff;
+  padding: 20px;
+}
+.top .logo {
+  width: 150px;
+  height: 30px;
+}
+.top h1 {
+  font-size: 25px;
+  position: absolute;
+  margin: 0;
+  bottom: 15px;
+}
+.top .test-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.top .test-info .info {
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+}
+.top .test-info .info span {
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  display: block;
+  background: #19B4ED;
+  color: #fff;
+  padding: 3px 0;
+}
+.top .test-info .info .zt {
+  background: red;
+}
+.top .test-info .time {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  line-height: 40px;
+  background: #b2ffff;
+  border-radius: 0 0 10px 10px;
+  color: #19B4ED;
+}
+.top .user {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.top .user p {
+  margin: 0;
+  color: #999;
+}
+.top .user .exit {
+  margin-left: 10px;
+}
+.top .user .exit a {
+  color: #999;
+}
+.top .user .exit a:hover {
+  color: #19B4ED;
+}
+
+.test {
+  padding: 20px;
+  margin-right: 220px;
+}
+
+.right {
+  width: 220px;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+}
+
+.question {
+      margin-top: 100px;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  /*border: 1px #ccc solid;*/
+  margin-bottom: 20px;
+}
+.question .question-title {
+  font-size: 18px;
+  margin: 0;
+  color: #111;
+  padding-right: 80px;
+}
+.question .question-tip {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.question .question-tip .question-num {
+  color: red;
+}
+.question .question-tip .question-icon {
+  margin-left: 10px;
+}
+.question .options {
+  margin: 0;
+  margin-top: 20px;
+}
+.question .options li {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+.question .options li input {
+  margin-right: 10px;
+}
+.question .question-btns {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.question .question-btns .btn-next {
+  background: #19B4ED;
+  color: #fff;
+}
+.question .question-btns .btn-next:hover {
+  background: #0081ba;
+  color: #fff;
+}
+.question .question-btns .btn-prev {
+  background: #999;
+  color: #fff;
+}
+.question .question-btns .btn-prev:hover {
+  background: #666666;
+  color: #fff;
+}
+.question .question-btns .btn-question-submit {
+  background: #7AC520;
+  color: #fff;
+}
+.question .question-btns .btn-question-submit:hover {
+  background: #479200;
+  color: #fff;
+}
+.question .question-btns .btn {
+  padding: 5px 0;
+  border-radius: 0;
+  width: 80px;
+}
+@media (max-width: 1200px) {
+  .question .question-btns {
+    position: static;
+    float: right;
+    margin-top: 20px;
+  }
+}
+.question .question-order {
+  margin-right: 5px;
+}
+
+.question-on .question-icon {
+  color: red;
+}
+
+.question-answer {
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  border: 1px #ccc solid;
+}
+.question-answer .question-tip-left {
+  height: 30px;
+}
+.question-answer .question-tip-left h3 {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  background: #19B4ED;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+  border-radius: 0 3px 3px 0;
+}
+.question-answer .answer-result {
+  color: red;
+  margin: 10px 0;
+}
+.question-answer .answer-analysis {
+  text-indent: 2em;
+  margin-top: 10px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.timus {
+  margin-top: 20px;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  max-height: 320px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.timus a {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #fff;
+  border-left: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  cursor: pointer;
+}
+.timus a:hover,.actived {
+  background: #19B4ED;
+  color: #fff;
+}
+
+.right-menu .show {
+  width: 30%;
+  text-align: center;
+  color: #19B4ED;
+  margin-bottom: 10px;
+}
+.right-menu .show span {
+  width: 100%;
+  display: block;
+  background: #fff;
+  height: 30px;
+  line-height: 30px;
+}
+.right-menu .show .s3 {
+  background: #19B4ED;
+  color: #fff;
+}
+
+.btn-submit {
+  bottom: 0;
+  background: #19B4ED;
+  color: #fff;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+}
+.btn-submit:hover {
+  background: #0081ba;
+  color: #fff;
+}

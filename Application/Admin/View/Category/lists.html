@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <include file="Public/header" />
+    <!-- 自定义样式可以直接写在这 -->
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>课程管理</h5>
+                </div>
+                <!--  -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox">
+                            <div class="ibox-content">
+                                <form role="form" class="form-inline" action="" method="get" target="_self">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2" class="">名称:</label>
+                                        <input type="text" placeholder="请输入用户名" id="exampleInputEmail2" class="form-control" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword2" class="">:状态</label>
+                                        <select class="form-control" name="status">
+                                            <option>选项 1</option>
+                                            <option>选项 2</option>
+                                            <option>选项 3</option>
+                                            <option>选项 4</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-white" type="submit">搜索</button>
+                                    <a href="{:U('admin/category/edit')}" class="btn btn-primary" type="submit" target="_self">新增</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="ibox-content">
+
+                    <table class="table table-striped table-bordered table-hover dataTables-example">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>分类名字</th>
+                            <th>parent_id</th>
+                            <th>状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="lists" id="vo">
+                            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.parent_id}</td>
+                                <td>{$vo.status}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                         <!-- <tfoot> -->
+                            <tr>
+                                <td colspan="6">
+                                    {$page}
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/footer" />
+</body>
+</html>

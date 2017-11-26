@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <include file="Public/header" />
+    <!-- 自定义样式可以直接写在这 -->
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>课程管理</h5>
+                </div>
+                <!--  -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox">
+                            <div class="ibox-content">
+                                <form role="form" class="form-inline" action="{:U('admin/classify/lists')}" method="get" target="_self">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2" class="">名称:</label>
+                                        <input type="text" placeholder="请输入分类名" id="exampleInputEmail2" class="form-control" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword2" class="">所属分类:</label>
+                                        <select class="form-control" name="parent_id">
+                                            <option value="all">全部分类</option>
+                                            <option value="parent">顶级分类</option>
+                                            <?php foreach ($classifylists as $value) { ?>
+                                            <option value="{$value['id']}">{$value['name']}</option>
+                                            <?php }?>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-white" type="submit">搜索</button>
+                                    <a href="{:U('admin/classify/edit')}" class="btn btn-primary" type="submit" target="_self">新增</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="ibox-content">
+
+                    <table class="table table-striped table-bordered table-hover dataTables-example">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>分类名字</th>
+                            <th>parent_id</th>
+                            <th>状态</th>
+                            <th>编辑</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="lists" id="vo">
+                            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.parent_id}</td>
+                                <td><?php if($vo['status']){ ?>
+                                    <a href="{:U('admin/classify/outline',array('id'=>$vo['id']))}" target="_self">下线</a>
+                                <?php } else { ?>
+                                    <a href="{:U('admin/classify/online',array('id'=>$vo['id']))}" target="_self">上线</a>
+                                <?php } ?>
+                                </td>
+                                <td><a href="{:U('admin/classify/edit',array('id'=>$vo['id']))}">edit</a></td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                         <!-- <tfoot> -->
+                            <tr>
+                                <td colspan="6">
+                                    {$page}
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/footer" />
+</body>
+</html>

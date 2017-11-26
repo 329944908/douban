@@ -1,0 +1,96 @@
+html,body,h2,ul,li {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"；
+}
+a {
+	text-decoration: none;
+}
+label {
+	cursor: pointer;
+}
+.top {
+	width: 1024px;
+	margin: 0 auto;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	background-color: #f0e8f7;
+}
+.content {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #e9ddef;
+}
+.clearfix:after {
+	height: 0;
+	content: "";
+	display: block;
+	clear: both;
+}
+.content_left {
+	float: left;
+	width: 200px;
+	background-color: #50267c;
+}
+.content_left ul,li {
+	list-style: none;
+}
+.content_left ul li {
+	padding: 8px 10px;
+	background-color: #3f1e60;
+	text-align: center;
+}
+.content_left ul li:hover {
+	background-color: #50267c;
+}
+.content_left ul li a {
+	color: #fff;
+	font-size: 14px;
+	display: block;
+}
+.content_center {
+	float: left;
+	width: 500px;
+	min-height: 550px;
+}
+.select_input_type {
+	width: 400px;
+	margin: 15px auto;
+	padding: 20px 30px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.select_input_type input {
+	margin-right: 10px;
+	vertical-align: -2px;
+}
+
+.content_right {
+	float: left;
+	width: 324px;
+}
+.all_num {
+	width: 300px;
+	margin: 15px auto;
+}
+.num {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #50267c;
+	background-color: #fff;
+	border: 1px solid #e2dae7;
+	font-size: 14px;
+}
+.hide {display: none}
+.btn {
+	display: inline-block;
+    padding: 2px 5px;
+    cursor: pointer;
+    background: #ccc;
+    margin: 0 2px;
+}
+.current {background: #ccc}

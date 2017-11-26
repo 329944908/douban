@@ -1,0 +1,315 @@
+/*
+* @Author: liumin
+* @Date:   2016-05-09 07:47:45
+* @Last Modified by:   liumin
+* @Last Modified time: 2016-05-11 21:20:47
+*/
+
+$baseColor : #19B4ED;
+$background: #F5F5F5;
+
+body{
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    background:$background;
+    a{
+        text-decoration:none;
+        color:#373737;
+        &:hover{
+            text-decoration:none;
+            color:$baseColor;
+        }
+    }
+}
+
+.maxw{
+    max-width:768px;
+}
+
+@mixin btn($bg:#333){
+    background:$bg;
+    color:#fff;
+    &:hover{
+        background:$bg - #333;
+        color:#fff;
+    }
+}
+
+.container-fluid{
+    padding:20px 0;
+}
+
+.nopadding{
+    padding:0;
+}
+
+.title-left{
+    width:120px;
+    background:#19B4ED;
+    border-radius: 0 5px 5px 0;
+    h3{
+        font-size: 18px;
+        color:#fff;
+        margin: 0;
+        padding:10px 20px;
+    }
+}
+.input1{
+    padding:0 45px;
+    padding-right: 85px;
+    width:100%;
+    // display:none;
+
+    label{
+        position: absolute;
+        text-align: left !important;
+        // font-size: 16px;
+        font-weight: 300;
+        @media (max-width: 768px){
+            line-height: 35px;
+        }
+    }
+    input{
+        // max-width: 200px;
+        width:100%;
+        margin-left: 70px;
+    }
+}
+
+.input3{
+    @extend .input1;
+    padding-right: 65px;
+    input{
+        margin-left: 50px;
+    }
+}
+
+.input1-radio{
+    margin-top:20px;
+    margin-bottom:10px;;
+    text-align: center;
+    width:100%;
+    padding-left:27px;
+    line-height: 25px;
+    a{
+        font-weight: 100px;
+        color:#999;
+    }
+}
+
+.input2{
+    padding:0 45px;
+}
+
+.register{
+    width:100%;
+    form{
+        margin-top: 20px;
+    }
+}
+
+.sign{
+    @extend .register;
+    background:#fff;
+    .yzm{
+        position:relative;
+        padding-right:170px;
+        input{
+            // max-width:120px;
+            // margin-right:200px;
+        }
+        img{
+            height:35px;
+            right:-140px;
+            top:0px;
+            position:absolute;
+        }
+    }
+    .btn-submit{
+        margin-top: 10px;
+    }
+}
+.btn-submit{
+    @include btn($baseColor);
+    width:100%;
+    padding:10px;
+    font-size: 18px;
+}
+.gosign{
+    padding-right:45px;
+    margin-top:10px;
+    a{
+          color:#999;
+          font-size: 16px;
+    }
+}
+.goregister{
+    @extend .gosign;
+    a{
+        color:$baseColor;
+        &:hover{
+            color:$baseColor;
+        }
+    }
+}
+.guanggao{
+    background:$background;
+    padding:20px 0 40px;
+    .title1{
+        font-size: 20px;
+        color:$baseColor;
+        font-weight: bold;
+    }
+    .icon1{
+        background:$baseColor;
+        border-radius: 100px;
+        color:#fff;
+        width:20px;
+        height:20px;
+        display:inline-block;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .info{
+        font-size: 18px;
+        color:#999;
+        font-weight: bold;
+    }
+    .info2{
+        font-size: 18px;
+        color:#999;
+    }
+}
+.gonggao{
+    padding:40px 0 0;
+    .gg{
+        font-size: 20px;
+    }
+    .btn-ty{
+        @include btn(#7AC520);
+        border-radius:100px;
+        max-width:150px;
+        width:100%;
+        margin-top: 20px;
+        padding:10px 0;
+    }
+    .btn-zs{
+        @include btn($baseColor);
+        border-radius:100px;
+        max-width:150px;
+        width:100%;
+        margin-top: 20px;
+        padding:10px 0;
+
+
+    }
+}
+.welcome{
+    padding:7px;
+    height:35px;
+    padding-left:30px;
+    p{
+        font-size: 18px;
+        margin:0;
+    }
+}
+.biaoti{
+    background:$baseColor;
+    font-size: 20px;
+    color:#fff;
+    padding:10px 30px;
+    margin:0;
+}
+.user-info{
+    padding:20px;
+    li{
+        font-size: 18px;
+        margin-bottom:10px;
+    }
+}
+.px20{
+    width:20px;
+    opacity:0;
+}
+.test{
+    .testtitle{
+        color:$baseColor;
+        font-size: 20px;
+    }
+    .questionstip{
+        font-size: 12px;
+        padding:2px;
+        border:$baseColor;
+        border:1px $baseColor solid;
+        color:$baseColor;
+        margin-right:7px;
+    }
+    .questions-text{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .test-menus{
+        width:100%;
+        margin-top:20px;
+        .test-menu{
+            width:20%;
+            float: left;
+            padding:0 2px;
+        }
+    }
+    .btn-test-menu{
+        @include btn($baseColor);
+        font-size: 12px;
+        width:100%;
+        padding:5px 0;
+    }
+    .question-menu{
+        max-width:270px;
+        .btn{
+            @include btn($baseColor);
+            max-width:80px;
+            width:100%;
+        }
+        .btn-question-prev{
+
+        }
+        .btn-question-submit{
+            max-width:80px;
+            @include btn(#7AC520);
+        }
+    }
+    .questions{
+        padding:30px;
+        .checkbox{
+            font-size: 18px;
+            input{
+                margin-right:10px;
+            }
+        }
+    }
+    .result{
+        p{
+            font-size: 16px;
+            color:red;
+            padding:0 20px;
+        }
+    }
+    .analysis{
+        p{
+            padding:0 20px;
+            font-size: 16px;
+            text-indent:2em;
+        }
+    }
+    .tipleft{
+        @extend .title-left;
+        background:#004F6D;
+        width:100px;
+        h4{
+            font-size: 14px;
+            color:#fff;
+            padding:5px;
+            padding-right:20px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+html,body,ul,li {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration:none;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-image: url(./images/login_bg.jpg);
+}
+.box {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 520px;
+	height: 300px;
+	background-color: #fff;
+}
+.login {
+	margin: 10px 20px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.user_login {
+	font-size: 24px;
+}
+.forget_pass,.regist_new {
+	float: right;
+	font-size: 14px;
+}
+.forget_pass {
+	margin-right: 20px;
+}
+.login_box {
+	width: 450px;
+	margin: 0 auto;
+}
+.login_box p {
+	font-size: 14px;
+}
+.login_box p input[type="text"], .login_box p input[type="password"] {
+	display: inline-block;
+	outline: none;
+	width: 320px;
+	height: 25px;
+	padding-left: 10px;
+	margin-left: 10px;
+	vertical-align: 1px;
+	border-radius: 6px;
+	border: 1px solid #535353;
+	color: #535353;
+}
+.login_box p input.mr_26 {
+	margin-left: 26px;
+}
+.login_box p input.code {
+	width: 150px;
+}
+.login_box p span {
+	margin-left: 5px;
+	vertical-align: 2px;
+	font-size: 12px;
+}
+.login_box p.login_btn {
+	margin-left: 80px;
+	width: 330px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #175bc1;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.login_box p.login_btn_mar_65 {
+	margin-left: 65px;
+}
+.regist {
+	height: 520px;
+}
+.mar_25 {
+	margin-right: 25px;
+}
+#agreen {
+	margin-left: 100px;
+}
+.verity *{
+	float: left;
+}
+.verify img{
+	height: 30px;
+	width: 80px;
+}
