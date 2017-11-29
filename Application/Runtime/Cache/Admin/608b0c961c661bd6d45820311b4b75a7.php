@@ -21,15 +21,27 @@
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>编辑分类</h5>
+                        <h5>编辑商品</h5>
                     </div>
                     <div class="ibox-content">
                         <form class="form-horizontal" action="<?php echo U('save');?>" method="post" target="_self">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">分类名称</label>
+                                <label class="col-sm-2 control-label">商品名称</label>
                                 <div class="col-sm-5">
                                     <input type="hidden" name="id" value="<?php echo $data['id'];?>">
                                     <input type="text" class="form-control" name="name" value="<?php echo $data['name'];?>">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">价格</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="price" value="<?php echo $data['price'];?>">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">市场价格</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="market_price" value="<?php echo $data['market_price'];?>">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -37,12 +49,26 @@
                                 <label class="col-sm-2 control-label">所属分类</label>
 
                                 <div class="col-sm-5">
-                                    <select class="form-control m-b" name="parent_id">
-                                    <option value="0">顶级分类</option>
-                                    <?php foreach ($classifylists as $value) { ?>
-                                         <option value="<?php echo ($value['id']); ?>"   
-                                             <?php if($value['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
+                                    <select class="form-control m-b" name="classify_id">
+                                    <?php foreach ($classifylists as $value) {?>
+                                        <option disabled value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
+                                        <?php foreach ($value['child'] as $v) { ?>
+                                            <option value="<?php echo $v['id'];?>" 
+                                            <?php if($data['classify_id']==$v['id']){ ?>
+                                            selected="selected" <?php } ?>>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $v['name'];?></option>
+                                        <?php } ?>
                                     <?php }?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商家</label>
+                                <div class="col-sm-5">
+                                    <select class="form-control m-b" name="seller_id">
+                                    <?php foreach ($sellerlists as $value) { ?>
+                                        <option value="<?php echo $value['id'];?>" <?php if($data['seller_id']==$value['id']) {?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
+                                    <?php } ?>
                                     </select>
                                 </div>
                             </div>

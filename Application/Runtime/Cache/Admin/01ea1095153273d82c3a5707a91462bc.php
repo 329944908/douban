@@ -60,10 +60,12 @@
                             <th>商品名字</th>
                             <th>分类</th>
                             <th>价格</th>
+                            <th>市场价格</th>
                             <th>库存</th>
                             <th>商家</th>
                             <th>状态</th>
                             <th>图片</th>
+                            <th>edit</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -72,6 +74,7 @@
                                 <td><?php echo ($vo["name"]); ?></td>
                                 <td><?php echo ($class[$vo['classify_id']]); ?></td>
                                 <td><?php echo ($vo["price"]); ?></td>
+                                <td><?php echo ($vo["market_price"]); ?></td>
                                 <td>2</td>
                                 <td><?php echo ($seller[$vo['seller_id']]); ?></td>
                                 <td><?php if($vo['status']){ ?>
@@ -81,11 +84,12 @@
                                 <?php } ?>
                                 </td>
                                 <td><a href="<?php echo U('admin/GoodsPic/add',array('id'=>$vo['id']));?>">上传图片</a></td>
+                                 <td><a href="<?php echo U('admin/goods/edit',array('id'=>$vo['id']));?>">edit</a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                          <!-- <tfoot> -->
                             <tr>
-                                <td colspan="7">
+                                <td colspan="10">
                                     <?php echo ($page); ?>
                                 </td>
                             </tr>

@@ -13,15 +13,19 @@ class GoodsController extends Controller {
         $goodsModel = D('Goods'); 
         $goodsPicModel = D('GoodsPic');
         $classifyModel = D('Classify');
+        $res = $classifyModel->getBasicInfo($classify_id);
+        if(!$res || $res['status']==0){
+            _res('分类不存在或已下线',false,'1002');
+        }
         $all_classify_id = array();
         if($classify_id == 0){
-            $classify = $classifyModel->getList(array('parent_id'=>$classify_parent_id));
+            $classify = $classifyModel->getList(array('parent_id'=>$classify_parent_id,'status'=>1));
             foreach ($classify as $key => $value) {
                 $all_classify_id[] = $value['id'];
             }
-            $where = array('classify_id'=>array('in',$all_classify_id));
+            $where = array('classify_id'=>array('in',$all_classify_id),'status'=>1);
         }else{
-            $where = array('classify_id'=>$classify_id);
+            $where = array('classify_id'=>$classify_id,'status'=>1);
         }
         if($order==2){
             $order_name = 'price';

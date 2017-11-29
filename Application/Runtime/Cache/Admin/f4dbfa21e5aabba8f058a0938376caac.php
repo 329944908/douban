@@ -26,24 +26,16 @@
                     <div class="ibox-content">
                         <form class="form-horizontal" action="<?php echo U('save');?>" method="post" target="_self">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">分类名称</label>
+                                <label class="col-sm-2 control-label">店铺名称</label>
                                 <div class="col-sm-5">
-                                    <input type="hidden" name="id" value="<?php echo $data['id'];?>">
-                                    <input type="text" class="form-control" name="name" value="<?php echo $data['name'];?>">
+                                    <input type="text" class="form-control" name="name">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">所属分类</label>
-
+                                <label class="col-sm-2 control-label">地址</label>
                                 <div class="col-sm-5">
-                                    <select class="form-control m-b" name="parent_id">
-                                    <option value="0">顶级分类</option>
-                                    <?php foreach ($classifylists as $value) { ?>
-                                         <option value="<?php echo ($value['id']); ?>"   
-                                             <?php if($value['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
-                                    <?php }?>
-                                    </select>
+                                    <input type="text" class="form-control" name="address">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>

@@ -20,13 +20,20 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">商品名称</label>
                                 <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="name">
+                                    <input type="hidden" name="id" value="<?php echo $data['id'];?>">
+                                    <input type="text" class="form-control" name="name" value="<?php echo $data['name'];?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">价格</label>
                                 <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="price">
+                                    <input type="text" class="form-control" name="price" value="<?php echo $data['price'];?>">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">市场价格</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="market_price" value="<?php echo $data['market_price'];?>">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -38,7 +45,10 @@
                                     <?php foreach ($classifylists as $value) {?>
                                         <option disabled value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
                                         <?php foreach ($value['child'] as $v) { ?>
-                                            <option value="<?php echo $v['id'];?>">&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $v['name'];?></option>
+                                            <option value="<?php echo $v['id'];?>" 
+                                            <?php if($data['classify_id']==$v['id']){ ?>
+                                            selected="selected" <?php } ?>>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $v['name'];?></option>
                                         <?php } ?>
                                     <?php }?>
                                     </select>
@@ -49,7 +59,7 @@
                                 <div class="col-sm-5">
                                     <select class="form-control m-b" name="seller_id">
                                     <?php foreach ($sellerlists as $value) { ?>
-                                        <option value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
+                                        <option value="<?php echo $value['id'];?>" <?php if($data['seller_id']==$value['id']) {?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
                                     <?php } ?>
                                     </select>
                                 </div>

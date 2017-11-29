@@ -48,8 +48,9 @@ class CommonController extends Controller {
      */
     public function edit() {
         if ($id = I('id',0)) {
-            D($this->model)->getBasicInfo($id);
+            $data = D($this->model)->getBasicInfo($id);
         }
+        $this->assign('data',$data);
         $this->display();
     }
     public function addPic(){

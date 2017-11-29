@@ -24,7 +24,7 @@ class BaseModel extends RelationModel {
 	 * @return   结果array
 	 * 
 	 */
-	public function getList($where= array(),$order = 'id',$order_type='asc',$offset=0, $limit=20) {
+	public function getList($where= array('status' => 1),$order = 'id',$order_type='asc',$offset=0, $limit=20) {
 		return $this->where($where)->limit($offset, $limit)->relation(true)->order($order.' '.$order_type)->select();
 	}
 
