@@ -41,7 +41,11 @@ class GoodsController extends Controller {
         foreach ($data as $key => $value) {
             $data[$key] =  $goodsModel->format($value);
             $goods_image = $goodsPicModel->getPic($value['id']);
-            $data[$key]['img'] = C('ImageUrl').$goods_image[0]['image'];
+            if($goods_image){
+                $data[$key]['img'] = C('ImageUrl').$goods_image[0]['image'];
+            }else{
+                $data[$key]['img'] = 'no image';
+            }   
         }
         $result = array(
             "goods"=>$data,
@@ -58,8 +62,12 @@ class GoodsController extends Controller {
         $data = $goodsModel->getBasicInfo($goods_id);
         $data = $goodsModel->format($data);
         $goods_image = $goodsPicModel->getPic($goods_id);
-        foreach ($goods_image as $key => $value) {
-             $data['imgs'][$key] = $goodsPicModel->format($value);
+        if($goods_image){
+            foreach ($goods_image as $key => $value) {
+                 $data['imgs'][$key] = $goodsPicModel->format($value);
+            }
+        }else{
+                $data['imgs'][$key] = 'no image';
         }
         $data['desc'] = '哈哈哈哈哈哈';
         $result = array(

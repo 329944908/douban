@@ -14,7 +14,11 @@ class IndexController extends Controller {
     	foreach ($goods_data as $key => $value) {
     		$goods_data[$key] = $goodsModel->format($value);
     		$goods_image = $goodsPicModel->getPic($value['id']);
-    		$goods_data[$key]['img'] = C('ImageUrl').$goods_image[0]['image'];
+            if($goods_image){
+                $goods_data[$key]['img'] = C('ImageUrl').$goods_image[0]['image'];
+            }else{
+                $goods_data[$key]['img'] = 'no image';
+            }
     	}
     	$result = array(
     		"banner" => $ad_data,

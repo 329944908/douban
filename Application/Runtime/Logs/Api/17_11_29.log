@@ -738,3 +738,300 @@ SQL: SELECT * FROM `classify` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
 SQL: SELECT * FROM `goods` WHERE `classify_id` = 4 AND `status` = 1 ORDER BY price desc LIMIT 0,20   [ RunTime:0.0004s ]
 SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
 
+[ 2017-11-29T15:03:41+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:03:42+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:03:47+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:03:52+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:03:55+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:04:07+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:04:13+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:05:20+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:07:14+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:07:23+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:07:28+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:07:56+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:08:22+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:08:36+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2&classify_id=4&order=2&order_type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` = 4 AND `status` = 1 ORDER BY price desc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-11-29T15:09:06+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=1&classify_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` = 3 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-11-29T15:09:23+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=1&classify_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` = 3 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 8  [ RunTime:0.0006s ]
+
+[ 2017-11-29T15:10:30+08:00 ] 127.0.0.1 /Api/goods/info?id=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 111  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 70 行.
+
+[ 2017-11-29T15:10:47+08:00 ] 127.0.0.1 /Api/goods/info?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 70 行.
+

@@ -20,7 +20,9 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">商品名称</label>
                                 <div class="col-sm-5">
-                                    <input type="hidden" name="id" value="<?php echo $data['id'];?>">
+                                    <?php if($data){ ?>
+                                        <input type="hidden" name="id" value="<?php echo $data['id'];?>">
+                                    <?php } ?>   
                                     <input type="text" class="form-control" name="name" value="<?php echo $data['name'];?>">
                                 </div>
                             </div>
