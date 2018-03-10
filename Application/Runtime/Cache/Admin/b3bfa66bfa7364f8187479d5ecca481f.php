@@ -58,6 +58,7 @@
                             <th>分类名字</th>
                             <th>parent_id</th>
                             <th>状态</th>
+                            <th>hot</th>
                             <th>编辑</th>
                         </tr>
                         </thead>
@@ -70,6 +71,12 @@
                                     <a href="<?php echo U('admin/classify/outline',array('id'=>$vo['id']));?>" target="_self">下线</a>
                                 <?php } else { ?>
                                     <a href="<?php echo U('admin/classify/online',array('id'=>$vo['id']));?>" target="_self">上线</a>
+                                <?php } ?>
+                                </td>
+                                <td><?php if($vo['is_hot']){ ?>
+                                    <a href="<?php echo U('admin/classify/nohot',array('id'=>$vo['id']));?>" target="_self">否</a>
+                                <?php } else { ?>
+                                    <a href="<?php echo U('admin/classify/ishot',array('id'=>$vo['id']));?>" target="_self">是</a>
                                 <?php } ?>
                                 </td>
                                 <td><a href="<?php echo U('admin/classify/edit',array('id'=>$vo['id']));?>">edit</a></td>

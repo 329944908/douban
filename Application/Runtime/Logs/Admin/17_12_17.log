@@ -1,0 +1,3329 @@
+[ 2017-12-17T14:24:08+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2017-12-17T14:24:09+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-12-17T14:24:13+08:00 ] 127.0.0.1 /Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-12-17T14:24:14+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-12-17T14:24:31+08:00 ] 127.0.0.1 /index.php/admin/classify/outline/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: UPDATE `classify` SET `status`='0' WHERE `id` = 20 [ RunTime:0.1240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-12-17T14:24:32+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-12-17T14:49:17+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-12-17T14:49:17+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-12-17T14:49:19+08:00 ] 127.0.0.1 /Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-12-17T14:49:21+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-12-17T15:29:08+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2017-12-17T15:29:09+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2017-12-17T15:29:12+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2017-12-17T15:29:17+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2017-12-17T15:36:10+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-12-17T15:36:10+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-12-17T15:36:13+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-12-17T15:40:45+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-12-17T15:47:10+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-12-17T15:47:10+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2017-12-17T15:47:12+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-12-17T15:47:14+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-12-17T15:47:35+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0004s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('羽绒服','3') [ RunTime:0.1597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-12-17T15:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-12-17T15:48:06+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-12-17T15:48:06+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-12-17T15:48:13+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-12-17T15:49:42+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-12-17T15:49:42+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-12-17T15:49:44+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-12-17T15:49:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0601s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\GoodsController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `goods` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined offset: 4 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 4 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 7 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 7 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 5 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-12-17T15:50:45+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-12-17T15:50:57+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('数码产品','0') [ RunTime:0.1131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-12-17T15:50:58+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-12-17T15:51:09+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-12-17T15:51:14+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2017-12-17T15:51:22+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0005s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('家用电器','0') [ RunTime:0.0596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-12-17T15:51:23+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-12-17T15:51:25+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-12-17T15:51:34+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0004s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('电脑','0') [ RunTime:0.0980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-12-17T15:51:35+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-12-17T15:51:38+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-12-17T15:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('家具','0') [ RunTime:0.1115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-12-17T15:51:44+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=25 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-12-17T15:51:45+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=25 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-12-17T15:51:54+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=25 )  [ RunTime:0.0004s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('服装','0') [ RunTime:0.0965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-12-17T15:51:55+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=25 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=26 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-12-17T15:52:12+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=24 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=25 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=26 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-12-17T15:52:44+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-12-17T15:52:44+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-12-17T15:52:53+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-12-17T15:52:54+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-12-17T15:53:05+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('数码产品','0') [ RunTime:0.0981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-12-17T15:53:06+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-12-17T15:53:14+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2017-12-17T15:53:20+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('服装','0') [ RunTime:0.0453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-12-17T15:53:22+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-12-17T15:53:24+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-12-17T15:53:33+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('家用电器','0') [ RunTime:0.0566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-12-17T15:53:34+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0175s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-12-17T15:53:41+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2017-12-17T15:53:45+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('家具','0') [ RunTime:0.0861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2017-12-17T15:53:47+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-12-17T15:53:51+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2017-12-17T15:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0006s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('电脑','0') [ RunTime:0.1711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-12-17T15:53:57+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-12-17T15:54:00+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-12-17T15:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('个人美装','0') [ RunTime:0.0602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-12-17T15:54:12+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-12-17T15:54:14+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-12-17T15:54:51+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: UPDATE `classify` SET `id`='32',`name`='个人美妆',`parent_id`='0' WHERE `id` = 32 [ RunTime:0.1965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-12-17T15:54:52+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-12-17T15:54:53+08:00 ] 127.0.0.1 /index.php/Admin/Classify/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-12-17T15:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-12-17T15:55:56+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-12-17T15:56:12+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('鞋包','0') [ RunTime:0.1134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-12-17T15:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-12-17T15:57:20+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-12-17T15:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('手机，数码，通信','27') [ RunTime:0.1383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-12-17T15:57:39+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-12-17T15:58:39+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0762s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-12-17T15:58:46+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('手机','34') [ RunTime:0.0561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-12-17T15:58:47+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-12-17T16:00:18+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-12-17T16:00:24+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: UPDATE `classify` SET `id`='31',`name`='箱包',`parent_id`='0' WHERE `id` = 31 [ RunTime:0.0757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-12-17T16:00:25+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-12-17T16:00:38+08:00 ] 127.0.0.1 /index.php/admin/classify/edit/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-12-17T16:00:42+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0337s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: UPDATE `classify` SET `id`='33',`name`='鞋',`parent_id`='0' WHERE `id` = 33 [ RunTime:0.1419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-12-17T16:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2017-12-17T16:00:53+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-12-17T16:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('男鞋','33') [ RunTime:0.1201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-12-17T16:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-12-17T16:01:06+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-12-17T16:01:20+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0006s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('女鞋','33') [ RunTime:0.0975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-12-17T16:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-12-17T16:01:26+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-12-17T16:01:38+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('皮鞋','36') [ RunTime:0.0883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-12-17T16:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-12-17T16:01:42+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-12-17T16:01:51+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('休闲鞋','36') [ RunTime:0.0553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-12-17T16:01:52+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2017-12-17T16:02:08+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-12-17T16:02:19+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('棉鞋','37') [ RunTime:0.1018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-12-17T16:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-12-17T16:02:22+08:00 ] 127.0.0.1 /index.php/admin/classify/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-12-17T16:02:29+08:00 ] 127.0.0.1 /index.php/Admin/Classify/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `classify` (`name`,`parent_id`) VALUES ('凉鞋','37') [ RunTime:0.0914s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-12-17T16:02:30+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2017-12-17T16:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-12-17T16:29:34+08:00 ] 127.0.0.1 /index.php/admin/ad/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2017-12-17T16:30:23+08:00 ] 127.0.0.1 /index.php/Admin/Ad/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\ebay\Application\Admin\Controller\AdController.class.php 第 11 行.
+SQL: SELECT * FROM `ad` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\ebay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `ad` (`title`,`url`,`position`,`image`) VALUES ('小天才','www.baidu.com','1','ads/2017-12-17/5a362b1f8c957.png') [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-12-17T16:30:24+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2017-12-17T16:30:46+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-12-17T16:30:50+08:00 ] 127.0.0.1 /index.php/admin/ad/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-12-17T16:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Ad/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\ebay\Application\Admin\Controller\AdController.class.php 第 11 行.
+SQL: SELECT * FROM `ad` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\ebay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `ad` (`title`,`url`,`position`,`image`) VALUES ('华为手机','www.sina.com.cn','1','ads/2017-12-17/5a362b4ed5e9f.png') [ RunTime:0.0851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2017-12-17T16:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-12-17T16:31:13+08:00 ] 127.0.0.1 /index.php/admin/ad/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\ebay\Application\Admin\Controller\CommonController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-12-17T16:31:54+08:00 ] 127.0.0.1 /index.php/Admin/Ad/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.1735s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\ebay\Application\Admin\Controller\AdController.class.php 第 11 行.
+SQL: SELECT * FROM `ad` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\ebay\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `ad` (`title`,`url`,`position`,`image`) VALUES ('七夕活动','www.youku.com','1','ads/2017-12-17/5a362b7aac7d3.png') [ RunTime:0.0613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2017-12-17T16:31:55+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-12-17T16:32:04+08:00 ] 127.0.0.1 /index.php/admin/ad/online/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0131s ]
+SQL: UPDATE `ad` SET `status`='1' WHERE `id` = 8 [ RunTime:0.1009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2017-12-17T16:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-12-17T16:32:07+08:00 ] 127.0.0.1 /index.php/admin/ad/online/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0121s ]
+SQL: UPDATE `ad` SET `status`='1' WHERE `id` = 9 [ RunTime:0.1292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2017-12-17T16:32:08+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-12-17T16:32:09+08:00 ] 127.0.0.1 /index.php/admin/ad/online/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0138s ]
+SQL: UPDATE `ad` SET `status`='1' WHERE `id` = 10 [ RunTime:0.0459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-12-17T16:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Ad/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ad` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ad` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+

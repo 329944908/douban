@@ -1,0 +1,441 @@
+body,html,a,div,li,ul,span,p,i,input,h3,sup,dt,dl,dd,h4{
+	padding: 0;
+    margin: 0;
+}
+.login-welcome {
+	margin-left: 120px;
+}
+.login-welcome>span {
+	font-size: 28px;
+	color: #666;
+	line-height: 100px;
+}
+.login {
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	background-color: #BF1919;
+}
+.new-login {
+	width: 1224px;
+	margin: 0 auto;
+}
+.login-bg {
+	display: inline-block;
+	width: 621px;
+	height: 475px;
+	overflow: hidden;
+}
+.login-bg>img {
+	width: 100%;
+	height: 100%
+}
+.hide {
+	display: none;
+}
+.user-input>p {
+	position: absolute;
+	left: 20px;
+	font-size: 10px;
+	margin-top: 1px;
+	color: #333;
+}
+.login-from {
+	position: relative;
+	float: right;
+	right: 35px;
+	width: 300px;
+	padding: 20px;
+	background-color: #fff;
+}
+.login-from .big-login {
+	padding: 35px 0 25px 0;
+	border-top:1px solid rgba(0,0,0,0.04);
+	border-bottom:1px solid rgba(0,0,0,0.04);
+}
+.login-from>h4 {
+	text-align: center;
+	color: #e23435;
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+.clearfix::after {
+	display: block;
+	height: 0;
+	content: "";
+	clear: both;
+}
+.user-input .user-pw {
+	background-position: 6px 6px;
+}
+.user-input .user-pmi {
+	background-position: 10px -26px;
+}
+.user-input {
+	margin-bottom: 20px;
+	border: 1px solid #bbbbbb;
+}
+.user-input>span {
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	float: left;
+    border-right: 1px solid #bbbbbb;
+    background:url("../image/loginchat.png") no-repeat;
+}
+.user-input>input {
+	position: relative;
+	border: 0;
+	outline: 0;
+	height: 37px;
+	width: 240px;
+	padding: 0 10px;
+}
+.login-from .chemk {
+	border: 0;
+	width: 300px;
+}
+.chemk>a {
+	display: inline-block;
+	width: 140px;
+	height: 39px;
+	margin-left: 7px;
+	background-color: pink;
+	vertical-align: bottom;
+}
+.user-input .do-try {
+	width: 122px;
+	border: 1px solid #bbbbbb;
+}
+a {
+	text-decoration: none;
+}
+.big-login>a {
+	float: right;
+	display: inline-block;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.red-login>input {
+	clear:both;
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+	border: 0;
+	height: 37px;
+	line-height: 37px;
+	background-color: #e23435;
+}
+.login-link {
+	width: 100%;
+	padding: 14px 0;
+	border-bottom: 20px;
+}
+.login-link>a {
+	display: inline-block;
+	float: left;
+	border-left: 1px solid rgba(0,0,0,0.04);
+	padding: 0 20px 0 20px;
+	color: #333;
+	font-size: 15px;
+}
+.login-link>a:first-child {
+	padding: 0 21px 0 0;
+	border-left: 0;
+}
+.login-link>a:last-child {
+	padding: 0 0 0 21px;
+}
+.login-link>a>i,.now-go>a>i {
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background:url("../image/loginchat.png") no-repeat;
+}
+.now-go>a>i {
+	background-position: -30px -60px;
+}
+.now-go>a {
+	float: right;
+}
+.now-go>a>span, .login-link>a>span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #333;	
+}
+.login-link .link-0 {
+	background-position: -66px 2px;;
+}
+.login-link .link-1 {
+    background-position:  -33px -30px;
+}
+.login-link .link-2 {
+	background-position: -31px 2px;
+}
+.floor {
+	background-color: #fff;
+}
+.floor-make {
+	border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 27px 0;
+}
+.floor-make>div {
+	width: 1224px;
+	margin: 0 auto;
+}
+.floor-make>div>span {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	border-left: 1px solid #e7e7e7;
+}
+.floor-make>div>span>i {
+	display: inline-block;
+	background: url("../image/ico-tphsop-index.png") no-repeat -200px -40px;
+	width: 49px;
+	height: 56px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+.floor-make>div>span:first-child {
+	border-left: 0;
+}
+.floor-make .make-0 {
+	background-position: 0 -27px;
+}
+.floor-make .make-1 {
+	background-position: -50px -27px;
+}
+.floor-make .make-2 {
+	background-position: -100px -27px;
+}
+.floor-make .make-3 {
+	background-position: -150px -27px;
+}
+.new-floor {
+	border-bottom: 1px solid #e7e7e7;
+}
+.floor-more {
+	width: 1224px;
+	margin: 0 auto;
+}
+.floor-more>div {
+	display: inline-block;
+	float: left;
+}
+.floor-more>div:first-child {
+	width: 1024px;
+}
+.floor-more>div:last-child  {
+	width: 200px;
+	padding: 20px 0;
+}
+.floor-more>div>span {
+	font-size: 18px;
+	color: #333;
+    display:block;
+    margin-bottom: 10px; 
+}
+.floor-more .fend {
+	display: block;
+	margin: 15px 0;
+	width: 940px;
+	color: #000;
+	font-size: 14px;
+}
+.floor-more .first, .floor-more b {
+	display: inline-block;
+}
+.floor-more .first {
+	width: 865px;
+	vertical-align: top;
+}
+.floor-more .first>a {
+	display: inline-block;
+	border-left: 1px solid #e7e7e7;
+	padding: 0 10px;
+	margin: 2px 0;
+	color: #333;
+	font-size: 14px;
+}
+.floor-more .first>a:hover {
+	color: #e34535;
+}
+.floor-more .first>a:first-child  {
+	border-left: 0;
+}
+.floor-more>div>p {
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.floor-more>div>a {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+.floor-more>div>a>img {
+	width: 100%;
+}
+.floor-more .color {
+	color: #e34535;
+}
+.floor-more>div>dl {
+	float: left;
+	width: 200px;
+}
+.floor-more>div>dl>dd {
+	padding: 5px 0;
+}
+.floor-more>div>dl>dd>a {
+	text-align: left;
+	font-size: 14px;
+	color: #666;
+}
+.floor-more>div>dl>dd>a:hover {
+	color: #e34535;
+}
+.floor-more>div>dl>dt {
+	font-size: 18px;
+	color: #333;
+	padding: 20px 0 0 0;
+}
+.over {
+	background-color: #fff;
+	padding: 25px 0 8px 0;
+}
+.new-over {
+	width: 1224px;
+	margin: 0 auto;
+	text-align: center;
+}
+.new-over>span, .new-over>p {
+	display: block;
+	margin-bottom: 10px;
+}
+.new-over>span>a {
+	display: inline-block;
+	padding: 0 8px;
+	color: #333;
+	font-size: 14px;
+	border-left: 1px solid #e7e7e7;
+}
+.new-over>span>a:first-child {
+	border-left: 0
+}
+.new-over>span>p {
+	font-size: 14px;
+	color: #666;
+}
+.new-over>p>a {
+	display: inline-block;
+	width: 103px;
+	height: 32px;
+	overflow: hidden;
+	margin-right: 5px;
+	background:url("../image/ico_footer.png") no-repeat;	
+}
+.new-over .over-0 {
+	background-position: 0 -150px;
+}
+.new-over .over-1 {
+	background-position: -104px -150px;
+}
+.new-over .over-2 {
+	background-position: 0 -184px;
+}
+.new-over .over-3 {
+	background-position: -104px -184px;
+}
+.new-over .over-4 {
+	background-position: 0 -217px;
+}
+.fixed-flow {
+	position: fixed;
+	top: 0;
+	clear:both;
+	background-color: rgba(25,25,25,0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+}
+.fixed-box {
+	position: fixed;
+	top: 37%;
+	left: 40%;
+	width: 300px;
+	height: 150px;
+	background-color: #fff;
+	z-index: 9999;
+}
+.fixed-box>span {
+	padding:0 25px;
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	color: #000;
+	opacity: 5;
+	vertical-align: middle;
+	background-color: #F8F8F8;
+}
+.fixed-box>span>a {
+	position: relative;
+	top: 15px;
+	display: inline-block;
+	background:url("../image/icon.png") no-repeat;
+	width: 16px;
+	height: 16px;
+	float: right;
+	vertical-align: middle;
+	background-position: 0 -40px;
+}
+.fixed-text {
+	padding: 18px 25px;
+
+}
+.fixed-text>i {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background:url("../image/icon.png") no-repeat;
+	background-position: -60px 0;
+	vertical-align: middle;
+	margin-bottom: 15px;
+}
+.fixed-text>span {
+	color: #333;
+	width: 210px;
+	padding-left: 5px;
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: middle;
+	margin-bottom: 15px;
+}
+.clearfix::after {
+	display: block;
+	height: 0;
+	content: "";
+	clear:both;
+}
+.fixed-text>a {
+	display: inline-block;
+	float: right;
+	border-color: #4898d5;
+	background-color: #2e8ded;
+	color: #fff;
+	padding: 5px 8px;
+}

@@ -28,7 +28,9 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">分类名称</label>
                                 <div class="col-sm-5">
-                                    <input type="hidden" name="id" value="<?php echo $data['id'];?>">
+                                    <?php if($data){ ?>
+                                        <input type="hidden" name="id" value="<?php echo $data['id'];?>">
+                                    <?php } ?>   
                                     <input type="text" class="form-control" name="name" value="<?php echo $data['name'];?>">
                                 </div>
                             </div>
@@ -42,6 +44,10 @@
                                     <?php foreach ($classifylists as $value) { ?>
                                          <option value="<?php echo ($value['id']); ?>"   
                                              <?php if($value['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
+                                            <?php foreach ($value['child'] as $k => $v) { ?>
+                                                <option value="<?php echo ($v['id']); ?>"   
+                                             <?php if($v['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>>----<?php echo $v['name'];?></option>
+                                            <?php } ?>
                                     <?php }?>
                                     </select>
                                 </div>

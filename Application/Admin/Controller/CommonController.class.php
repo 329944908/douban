@@ -79,4 +79,16 @@ class CommonController extends Controller {
         }
         $this->success('下线成功');
     }
+    public function ishot(){
+        if ($id = I('get.id',0)) {
+            D($this->model)->where(array('id'=>$id))->setField('is_hot','1');
+        }
+        $this->success('设置为热点');
+    }
+    public function nohot(){
+        if ($id = I('get.id',0)) {
+            D($this->model)->where(array('id'=>$id))->setField('is_hot','0');
+        }
+        $this->success('取消热点');
+    }
 }

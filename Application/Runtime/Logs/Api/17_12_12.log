@@ -1,0 +1,374 @@
+[ 2017-12-12T20:35:36+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.2328s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0793s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0476s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032535s ]
+
+[ 2017-12-12T20:35:37+08:00 ] 127.0.0.1 /Api/goods/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 非法操作:n
+
+[ 2017-12-12T20:35:37+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0583s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-12-12T20:35:38+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-12-12T20:35:42+08:00 ] 127.0.0.1 /Api/goods/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0575s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Api\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\ebay\Application\Api\Model\CartModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.1614s ]
+SQL: SELECT * FROM `cart` WHERE ( goods_id = 7 and user_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `cart` (`user_id`,`goods_id`,`goods_number`,`price`) VALUES ('2','7','1','111') [ RunTime:0.0999s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 94 行.
+
+[ 2017-12-12T20:37:11+08:00 ] 127.0.0.1 /index.php/api/cart/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\ebay\Application\Api\Model\CartModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 4  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Api\Controller\CartController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: product E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\f5831844d550b062638959268daf1564.php 第 188 行.
+NOTIC: [8] Undefined variable: product E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\f5831844d550b062638959268daf1564.php 第 188 行.
+NOTIC: [8] Undefined variable: product E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\f5831844d550b062638959268daf1564.php 第 188 行.
+NOTIC: [8] Undefined variable: product E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\f5831844d550b062638959268daf1564.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-12-12T20:37:16+08:00 ] 127.0.0.1 /index.php/api/cart/changNumber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Api\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\ebay\Application\Api\Model\CartModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0141s ]
+SQL: UPDATE `cart` SET `goods_number`='4' WHERE ( goods_id = 1 and user_id = 1 ) [ RunTime:0.1117s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\xampp\htdocs\ebay\Application\Api\Controller\CartController.class.php 第 23 行.
+
+[ 2017-12-12T21:09:49+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-12-12T21:09:49+08:00 ] 127.0.0.1 /Api/goods/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 非法操作:n
+
+[ 2017-12-12T21:09:50+08:00 ] 127.0.0.1 /Api/goods/n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 非法操作:n
+
+[ 2017-12-12T21:09:50+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-12-12T21:09:50+08:00 ] 127.0.0.1 /Api/goods/info?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: key E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 88 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 241 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: cover E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 271 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 272 行.
+NOTIC: [2] Illegal string offset 'img' E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 284 行.
+NOTIC: [8] Undefined index: title E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 296 行.
+NOTIC: [8] Undefined index: inventory E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 325 行.
+NOTIC: [8] Undefined index: createtime E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\29e71a262abffbaa5ef98d232d47e967.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-12-12T21:09:54+08:00 ] 127.0.0.1 /Api/goods/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-12T21:10:23+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 8  [ RunTime:0.0003s ]
+

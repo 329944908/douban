@@ -13,3 +13,7 @@
 		echo json_encode($result);
 		die();
 	}
+	function check_verify($code, $id = ''){
+    $verify = new \Think\Verify();
+    return $verify->check($code, $id);
+	}

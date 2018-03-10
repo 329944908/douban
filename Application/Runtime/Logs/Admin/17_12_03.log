@@ -1,0 +1,148 @@
+[ 2017-12-03T15:17:26+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.032752s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.032840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015782s ]
+
+[ 2017-12-03T15:17:26+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2017-12-03T15:17:29+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 23 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-12-03T15:19:30+08:00 ] 127.0.0.1 /index.php/Admin/Seller/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `address` FROM `seller`  [ RunTime:0.0371s ]
+SQL: SELECT * FROM `seller` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seller` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-12-03T15:19:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=9 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\GoodsController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `goods` LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.1202s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+

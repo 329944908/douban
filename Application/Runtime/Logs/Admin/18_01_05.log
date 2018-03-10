@@ -1,0 +1,239 @@
+[ 2018-01-05T19:44:25+08:00 ] 127.0.0.1 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012043s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.047532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.047625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.086462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.086531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.285090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.285166s ]
+
+[ 2018-01-05T19:44:25+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.422350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.422444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-01-05T19:44:27+08:00 ] 127.0.0.1 /Admin/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-01-05T19:45:02+08:00 ] 127.0.0.1 /index.php/Admin/Spec/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `spec` LIMIT 0,20   [ RunTime:0.0367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `spec` LIMIT 1   [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-01-05T19:45:03+08:00 ] 127.0.0.1 /index.php/Admin/GoodsType/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods_type` LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_type` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2018-01-05T19:45:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\GoodsController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `goods` LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='39' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2018-01-05T19:45:06+08:00 ] 127.0.0.1 /index.php/Admin/Classify/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\ebay\Application\Admin\Controller\ClassifyController.class.php 第 26 行.
+SQL: SELECT * FROM `classify` LIMIT 0,20   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `classify` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2018-01-05T19:45:07+08:00 ] 127.0.0.1 /index.php/Admin/Seller/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `seller` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `address` FROM `seller`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `seller` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seller` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+

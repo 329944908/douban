@@ -75,6 +75,15 @@
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Goods/lists');?>" data-index="0">商品管理</a>
                             </li>
+                            <li>
+                                <a class="J_menuItem" href="<?php echo U('GoodsType/lists');?>" data-index="0">商品模型</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="<?php echo U('Spec/lists');?>" data-index="0">商品规格</a>
+                            </li>
+                            <li>
+                                <a class="J_menuItem" href="<?php echo U('Ad/lists');?>" data-index="0">广告管理</a>
+                            </li>
                         </ul>
                     </li>
                     <li>

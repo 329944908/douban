@@ -131,28 +131,3 @@ function uploadFile($pic,$path){
     $pic_url = $info[$pic]['savepath'].$info[$pic]['savename'];
     return $pic_url;
 }
-
-function getGradeLevel($grade){
-	$grade = (int) $grade;
-	if ($grade == 100) {
-		$str = '考神附体';
-	} elseif ($grade >= 90){
-		$str = '你已经超神了';
-	} elseif ($grade >= 80){
-		$str = '你已经接近神了';
-	} elseif ($grade >= 70){
-		$str = '崇拜的五体投地';
-	} elseif ($grade >= 60){
-		$str = '你太厉害了';
-	} elseif ($grade >= 50){
-		$str = '你真棒';
-	} elseif ($grade >= 40){
-		$str = '加油加油，你可以的';
-	} elseif ($grade >= 30){
-		$str = '继续努力，看好你哦';
-	} else {
-		$str = '路漫漫其修远兮，奋斗吧';
-	}
-	$str .= '。';
-	return $str;
-}

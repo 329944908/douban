@@ -47,10 +47,14 @@
                                     <?php foreach ($classifylists as $value) {?>
                                         <option disabled value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
                                         <?php foreach ($value['child'] as $v) { ?>
-                                            <option value="<?php echo $v['id'];?>" 
-                                            <?php if($data['classify_id']==$v['id']){ ?>
-                                            selected="selected" <?php } ?>>
+                                            <option  disabled value="<?php echo $v['id'];?>">
                                             &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $v['name'];?></option>
+                                            <?php foreach ($v['c'] as $k2 => $v2) { ?>
+                                                <option value="<?php echo $v2['id'];?>" 
+                                                <?php if($data['classify_id']==$v2['id']){ ?>
+                                                selected="selected" <?php } ?>>
+                                                -----------<?php echo $v2['name'];?></option>
+                                            <?php } ?>
                                         <?php } ?>
                                     <?php }?>
                                     </select>

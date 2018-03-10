@@ -1,0 +1,277 @@
+[ 2017-12-03T15:01:58+08:00 ] 127.0.0.1 /Api/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1490s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0304s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `ad` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0253s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0220s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 8  [ RunTime:0.0003s ]
+
+[ 2017-12-03T15:02:04+08:00 ] 127.0.0.1 /Api/classify/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.3478s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 0 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2017-12-03T15:17:38+08:00 ] 127.0.0.1 /Api/goods/lists/classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-03T15:18:29+08:00 ] 127.0.0.1 /Api/goods/lists/classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0155s ]
+
+[ 2017-12-03T15:18:40+08:00 ] 127.0.0.1 /Api/goods/lists/classify_parent_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-03T15:19:19+08:00 ] 127.0.0.1 /Api/goods/lists/classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-03T15:19:50+08:00 ] 127.0.0.1 /Api/goods/lists/classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-03T15:20:57+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004025s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0262s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-12-03T15:21:46+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-12-03T15:30:29+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0120s ]
+
+[ 2017-12-03T15:30:55+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0127s ]
+ERR: 1054:Unknown column 'pid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classify` WHERE ( pid=2 ) 
+ERR: 1054:Unknown column 'pid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `classify` WHERE ( pid=2 ) 
+
+[ 2017-12-03T15:31:13+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 21 行.
+
+[ 2017-12-03T15:31:35+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: status E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 21 行.
+
+[ 2017-12-03T15:32:44+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 21 行.
+
+[ 2017-12-03T15:34:17+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 6 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0715s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('7','14','15','16','17') AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0183s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0005s ]
+
+[ 2017-12-03T15:34:46+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 3 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `status` = 1 ORDER BY id asc LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `classify_id` IN () AND `status` = 1 ORDER BY id asc LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `status` = 1 ORDER BY id asc LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `classify_id` IN () AND `status` = 1 ORDER BY id asc LIMIT 0,20  
+
+[ 2017-12-03T15:36:26+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 3 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `status` = 1 ORDER BY id asc LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `classify_id` IN () AND `status` = 1 ORDER BY id asc LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `status` = 1 ORDER BY id asc LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `classify_id` IN () AND `status` = 1 ORDER BY id asc LIMIT 0,20  
+
+[ 2017-12-03T15:36:29+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 2 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('4','5','18','20') AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-12-03T15:36:33+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=6 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 6 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('7','14','15','16','17') AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 3  [ RunTime:0.0005s ]
+
+[ 2017-12-03T15:36:49+08:00 ] 127.0.0.1 /Api/goods/lists?classify_parent_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=8 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `parent_id` = 8 AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('10','11') AND `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0003s ]
+

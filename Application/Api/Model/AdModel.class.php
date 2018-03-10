@@ -7,7 +7,8 @@ class AdModel extends BaseModel {
 		$data['id'] = $info['id'];
 		$data['img'] = $info['image'];
 		$data['url'] = $info['url'];
-		$data['type'] = $info['type'];
+		$data['position'] = $info['position'];
+		$data['status'] = $info['status'];
 		return $data;
 	}
 }

@@ -36,6 +36,10 @@
                                     <?php foreach ($classifylists as $value) { ?>
                                          <option value="{$value['id']}"   
                                              <?php if($value['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>><?php echo $value['name'];?></option>
+                                            <?php foreach ($value['child'] as $k => $v) { ?>
+                                                <option value="{$v['id']}"   
+                                             <?php if($v['id']==$data['parent_id']){ ?> selected="selected"<?php } ?>>----<?php echo $v['name'];?></option>
+                                            <?php } ?>
                                     <?php }?>
                                     </select>
                                 </div>

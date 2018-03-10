@@ -64,6 +64,7 @@
                             <th>库存</th>
                             <th>商家</th>
                             <th>状态</th>
+                            <th>hot</th>
                             <th>图片</th>
                             <th>edit</th>
                         </tr>
@@ -81,6 +82,12 @@
                                     <a href="<?php echo U('admin/goods/outline',array('id'=>$vo['id']));?>" target="_self">下线</a>
                                 <?php } else { ?>
                                     <a href="<?php echo U('admin/goods/online',array('id'=>$vo['id']));?>" target="_self">上线</a>
+                                <?php } ?>
+                                </td>
+                                <td><?php if($vo['is_hot']){ ?>
+                                    <a href="<?php echo U('admin/goods/nohot',array('id'=>$vo['id']));?>" target="_self">否</a>
+                                <?php } else { ?>
+                                    <a href="<?php echo U('admin/goods/ishot',array('id'=>$vo['id']));?>" target="_self">是</a>
                                 <?php } ?>
                                 </td>
                                 <td><a href="<?php echo U('admin/GoodsPic/add',array('id'=>$vo['id']));?>">上传图片</a></td>

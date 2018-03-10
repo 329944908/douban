@@ -6,6 +6,9 @@ class ClassifyController extends CommonController
 	public $model = 'classify';
 	public function _initialize(){
         $classify =D($this->model)->where('parent_id=0')->select();
+        foreach ($classify as $key => $value) {
+            $classify[$key]['child'] = D($this->model)->where("parent_id={$value['id']}")->select();
+        }
         $this->assign('classifylists', $classify);
 	}
 	public function getMap(){    //获得where条件

@@ -6,9 +6,12 @@ class IndexController extends Controller {
     	$goodsModel = D('Goods');
     	$goodsPicModel = D('GoodsPic');
     	$adModel = D('Ad');
+        $classifyModel = D('Classify');
     	$ad_data = $adModel->getList();
+        $classify_data = $classifyModel->getAll();
     	foreach ($ad_data as $key => $value) {
     		$ad_data[$key] = $adModel->format($value);
+            $ad_data[$key]['img'] = C('ImageUrl').$value['image'];
     	}
     	$goods_data = $goodsModel->getList();
     	foreach ($goods_data as $key => $value) {
@@ -20,10 +23,17 @@ class IndexController extends Controller {
                 $goods_data[$key]['img'] = 'no image';
             }
     	}
-    	$result = array(
-    		"banner" => $ad_data,
-    		"goods"  => $goods_data,
-    		);
-    	_res($result);
+    	// $result = array(
+    	// 	"banner" => $ad_data,
+    	// 	"goods"  => $goods_data,
+    	// 	);
+    	// _res($result);
+        // var_dump($ad_data);
+        // var_dump($classify_data);
+        // var_dump($goods_data);
+        $this->assign('ad',$ad_data);
+        $this->assign('classify',$classify_data);
+        $this->assign('goods',$goods_data);
+        $this->display();
     }
 }

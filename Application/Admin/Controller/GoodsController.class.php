@@ -5,11 +5,7 @@ class GoodsController extends CommonController
 {
 	public $model = 'goods'; // 本控制器使用的model
 	public function _initialize(){
-		$classify =D('classify')->where('parent_id=0')->select();//链接了classify表
-		foreach ($classify as $key=>$value) {
-			$child = D('classify')->where('parent_id='.$value['id'])->select();
-			$classify[$key]['child'] = $child;
-		}
+		$classify =D('classify')->getAll();
 		$class =D('classify')->select();
 		$sellerlists = D('seller')->select();
 		$seller = D('seller')->select();
