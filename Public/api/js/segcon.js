@@ -16,41 +16,31 @@ $(function(){
 	$(".fixed-text>a").click(function(){
 		$(".fixed-flow").hide();
 	})
-	$("#phone").blur(function(){ //文本框鼠标焦点消失事件 
-		$.ajax({ 
+	$(".click-phone").blur(function(){
+	    $.ajax({ 
 			url:"/api/user/checkUserId", //请求验证页面 
 			type:"GET", //请求方式 可换为post 注意验证页面接收方式
 			// dataType:"jsonp", 
 			// jsonp: "jsonpCallback",
-			data:"phone="+$("#phone").val(), //取得表文本框数据，作为提交数据 注意前面的 user 此处格式 key=value 其他方式请参考ajax手册 
+			data:"phone="+$(".click-phone").val(), //取得表文本框数据，作为提交数据 注意前面的 user 此处格式 key=value 其他方式请参考ajax手册 
 			success: function(data) 
 			{ //请求成功时执行操作 
 			$("#chk").html(data); //向ID为chk的元素内添加html代码 
 			}
 		}); 
-    })
-	$(".click-phone").blur(function(){
-		var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/; 
-		if(!myreg.test($(".click-phone").val())) 
-	    { 
-		    $(this).siblings(".hide").show();
-			$(this).siblings(".hide").text("请输入有效的手机号码！");
-		    // return false; 
-		     $('.click-phone').focus(function(){
-	        	 $(this).siblings(".hide").hide();
-	        	 $(this).siblings(".hide").text("");
-	        });
-	     } 
 	})
-	$(".click-phone").blur(function() {
-		if ($.trim($('.click-phone').val()).length == 0) {  
-            $(this).siblings(".hide").show();
-			$(this).siblings(".hide").text("手机号不能为空");
-	        $('.click-phone').focus(function(){
-	        	 $(this).siblings(".hide").hide();
-	        	 $(this).siblings(".hide").text("");
-	        });
-	    }
+	$(".click-email").blur(function(){
+	    $.ajax({ 
+			url:"/api/user/checkUserEmail", //请求验证页面 
+			type:"GET", //请求方式 可换为post 注意验证页面接收方式
+			// dataType:"jsonp", 
+			// jsonp: "jsonpCallback",
+			data:"email="+$(".click-email").val(), //取得表文本框数据，作为提交数据 注意前面的 user 此处格式 key=value 其他方式请参考ajax手册 
+			success: function(data) 
+			{ //请求成功时执行操作 
+			$("#chk1").html(data); //向ID为chk的元素内添加html代码 
+			}
+		}); 
 	})
 	 $(".click-ph").blur(function(){
 		var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/; 

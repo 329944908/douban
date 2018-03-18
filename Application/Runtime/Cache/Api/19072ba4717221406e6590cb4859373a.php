@@ -13,6 +13,13 @@
 			newsrc="/Api/User/verifyCode/v/"+Math.random();
 			$('.verify').attr('src',newsrc);
 		})
+		$('.ch').click(function(){
+			var checkbox = document.getElementById("ch");//选中checkbox的id；
+            if(checkbox.checked==true)else{
+                document.getElementById("but").disadled="disabled";
+            }
+		})
+
 	})
 	</script>
 </head>
@@ -30,7 +37,7 @@
 					邮箱注册
 				</a>
 			</span>
-			<span class="do-have">我已注册，马上<a href="javascript:void(0)">登录></a></span>
+			<span class="do-have">我已注册，马上<a href="<?php echo U('/api/user/login');?>">登录></a></span>
 		</div>
 	</div>
 	<div class="tab-form">
@@ -40,7 +47,6 @@
 				<span>手机号码:</span>
 				<input type="text" placeholder="请输入手机号码" name="phone" title="请填写此字段" class="click-phone" id="phone">
 				<span id="chk"></span>
-				<p class="hide">手机格式错误，请输入</p>
 			</div>
 			<div class="tab-line">
 				<span>图像验证码:</span>
@@ -54,19 +60,19 @@
 			<div class="tab-line">
 				<span>设置密码:</span>
 				<input type="password" placeholder="填写6-16位数字与大小写字母组合" name="password" title="请填写此字段"  class="set-pass" id="set-pass">
-				<p class="hide">手机格式错误，请输入</p>
+				<p class="hide"></p>
 			</div>
 			<div class="tab-line">
 				<span>确认密码:</span>
 				<input type="password" placeholder="请再次输入密码" name="password2" title="请填写此字段" class="true-pass" id="true-pass">
-				<p class="hide">手机格式错误，请输入</p>
+				<p class="hide"></p>
 			</div>
 			<div class="check">
-				<input type="checkbox" id="mycheck"><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
+				<input type="checkbox" id="ch" ><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
 				</span>
 			</div>
 			<div class="check check-a check-about" >
-				<input type="submit" name="" value="同意协议并注册">
+				<input type="submit" disabled="disabled" id="but" value="同意协议并注册">
 			</div>
 		</form>
 		</div>
@@ -74,8 +80,8 @@
 		<form action="/api/user/doReg2" method="post">
 			<div class="tab-line">
 				<span>邮箱:</span>
-				<input type="text" placeholder="请输入邮箱账号" name="user-phone" title="请填写此字段" id="email">
-				<p class="hide"></p>
+				<input type="text" placeholder="请输入邮箱账号" name="email" title="请填写此字段" id="email" class="click-email">
+				<span id="chk1"></span>
 			</div>
 			<div class="tab-line">
 				<span>图像验证码:</span>
@@ -98,11 +104,11 @@
 
 			</div>
 			<div class="check">
-				<input type="checkbox" id="hecheck"><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
+				<input type="checkbox" id="hecheck" onclick="document.form.b1.disabled=false"><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
 				</span>
 			</div>
 			<div class="check check-a check-about" >
-				<input type="submit" name="" value="同意协议并注册">
+				<input type="submit" name="b1" value="同意协议并注册" >
 			</div>
 		</form>
 		</div>

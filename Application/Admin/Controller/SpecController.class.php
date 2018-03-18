@@ -46,7 +46,10 @@ class SpecController extends CommonController
  		foreach ($item  as $key => $value){
  			$data['item'] = $value;
  			$data['spec_id'] = $spec_id;
- 			$specItemModel->add($data);
+ 			$status = D('SpecItem')->where("spec_id = {$data['spec_id']} and item = '{$data['item']}'")->select();
+ 			if(!$status){
+ 				$specItemModel->add($data);
+ 			}
  		}
  		$this->success('发布成功', 'lists');
 	}

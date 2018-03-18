@@ -44,8 +44,9 @@ class UserController extends Controller {
 			$data['phone'] = $_POST['phone'];
 			$data['password'] = $_POST['password'];
 			$verifyCode = $_POST['verifyCode'];
-			$res = check_verify($verifyCode, $id = '');
-			if($res){
+			if(!empty($data['phone'])&&!empty($data['password'])&&!empty($verifyCode)){
+				$res = check_verify($verifyCode, $id = '');
+				if($res){
 					$userModel = D('User');
 					$status = $userModel->add($data);
 					if ($status){
@@ -53,9 +54,13 @@ class UserController extends Controller {
 					}else{
 		    			$this->error('注册失败');
 					}
-			}else{
+				}else{
 					_res('验证码错误',false,'1004');
-			}		
+				}
+			}else{
+				_res('不能为空',false,'1005');
+			}
+					
 	}
 	public function doReg2(){
 			$data = array();
@@ -72,24 +77,41 @@ class UserController extends Controller {
 	}
 	public function checkUserId(){
 		$phone = I('get.phone','');
-		$userModel = D('User');
-		$data = $userModel->getUserInfoByPhone($phone);
-		if($data){
-			echo "<font color=red><nobr>此手机号已经注册过，请重新填写！</nobr></font>";
+		if(!empty($phone)){
+			$isMatched = preg_match('/^0?(13|14|15|17|18)[0-9]{9}$/',$phone);
+			if($isMatched){
+				$userModel = D('User');
+				$data = $userModel->getUserInfoByPhone($phone);
+				if($data){
+					echo "<font color=red><nobr>此手机号已经注册过，请重新填写！</nobr></font>";
+				}else{
+					echo "<font color=green><nobr>该手机号可以注册</nobr></font>";
+				}
+			}else{
+			echo "<font color=red><nobr>请输入有效的手机号码！</nobr></font>";
+			}
 		}else{
-			echo "<font color=green><nobr>该手机号可以注册</nobr></font>";
+			echo "<font color=red><nobr>手机号不能为空</nobr></font>";
 		}
+		
 	}
-	public function checkEmail($email){
+	public function checkUserEmail(){
 		$email = I('get.email','');
-		$userModel = D('User');
-		if(preg_match("/^([0-9A-Za-z]+)@(?:qq|163)\.(?:cn|com)/", $email)){
-			$data = $usermodel->getUserInfoByEmail($email);
-			if(!$data){
-				_res('该邮箱不存在',false,'1007');
-			}	
+		if(!empty($email)){
+			$isMatched = preg_match("/^([0-9A-Za-z]+)@(?:qq|163)\.(?:cn|com)/",$phone);
+			if($isMatched){
+				$userModel = D('User');
+				$data = $userModel->getUserInfoByEmail($email);
+				if($data){
+					echo "<font color=red><nobr>此邮箱已经注册过，请重新填写！</nobr></font>";
+				}else{
+					echo "<font color=green><nobr>该邮箱可以注册</nobr></font>";
+				}
+			}else{
+			echo "<font color=red><nobr>请输入有效的邮箱！</nobr></font>";
+			}
 		}else{
-			 _res('邮箱格式错误',false,'1004');
+			echo "<font color=red><nobr>邮箱不能为空</nobr></font>";
 		}
 	}
 }
