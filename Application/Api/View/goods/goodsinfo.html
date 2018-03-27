@@ -35,8 +35,8 @@
 	                	</div>
 	                </div>
 	                <span class="new-login">
-	                	<a href="{:U('/api/user/login')}" class="login">登录</a>
-	                	<a href="{:U('/api/user/reg')}" class="enroll">注册</a>
+	                	<a href="{:U('/user/login')}" class="login">登录</a>
+	                	<a href="{:U('/user/reg')}" class="enroll">注册</a>
 	                </span>
 				</div>
 				<div class="header-right clearfix">
@@ -135,7 +135,7 @@
                             <p>
                             	<a href="javascript:void(0)"><?php echo $v['name'];?></a> 
                             	<?php foreach ($v['c'] as $k2 => $v2) { ?>
-                            		<a href="{:U('/api/goods/lists',array('id'=>$v2['id']))}"><?php echo $v2['name'];?></a> 
+                            		<a href="{:U('/goods/lists',array('id'=>$v2['id']))}"><?php echo $v2['name'];?></a> 
 								<?php } ?>
                             </p>
                             <?php } ?>
@@ -150,11 +150,11 @@
 	</div>
 	<div class="detail-box clearfix">
 		<div class="detail-header">
-			<a href="{:U('/api/goods/lists',array('id'=>$classifyArr['parent_parent_classify']['id']))}"><?php echo $classifyArr['parent_parent_classify']['name'];?></a>
+			<a href="{:U('/goods/lists',array('id'=>$classifyArr['parent_parent_classify']['id']))}"><?php echo $classifyArr['parent_parent_classify']['name'];?></a>
 		    <i class="path-ico"></i>
-            <a href="{:U('/api/goods/lists',array('id'=>$classifyArr['parent_classify']['id']))}"><?php echo $classifyArr['parent_classify']['name'];?></a>
+            <a href="{:U('/goods/lists',array('id'=>$classifyArr['parent_classify']['id']))}"><?php echo $classifyArr['parent_classify']['name'];?></a>
 		    <i class="path-ico"></i>
-		    <a href="{:U('/api/goods/lists',array('id'=>$classifyArr['classify']['id']))}"><?php echo $classifyArr['classify']['name'];?></a>
+		    <a href="{:U('/goods/lists',array('id'=>$classifyArr['classify']['id']))}"><?php echo $classifyArr['classify']['name'];?></a>
 		    <i class="path-ico"></i>
 		    <a href="javascript:void(0)">
 			    <span><?php echo $goods['name'];?></span>

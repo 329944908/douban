@@ -15,4 +15,9 @@ return array(
         '__PC__' => __ROOT__.'/Public/PC',
         '__TMPL__' => __ROOT__.'/Application/Home/View/default',
     ),
+    'APP_SUB_DOMAIN_DEPLOY'   =>    1, // 开启子域名或者IP配置
+    'APP_SUB_DOMAIN_RULES'    =>    array(   
+    'yyxking.com'  => 'Api',  // admin.domain1.com域名指向Admin模块
+    //'test.domain2.com'   => 'Test',  // test.domain2.com域名指向Test模块
+    ),
 );

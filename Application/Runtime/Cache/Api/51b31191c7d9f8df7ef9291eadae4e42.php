@@ -19,13 +19,13 @@
 	                <span class="new-login">
 	                	<a href="javascript:void(0)" class="login">
 						<?php  if($_SESSION['me']){ echo $_SESSION['me']['name']; } else{ ?>
-									<a href="<?php echo U('/api/user/login');?>" class="login">登录</a>
+									<a href="<?php echo U('/user/login');?>" class="login">登录</a>
 	                			<?php } ?>
 	                	</a>
 	                	<?php  if($_SESSION['me']){ ?>
-	                		<a href="<?php echo U('/api/user/logout');?>" class="enroll">注销</a>
+	                		<a href="<?php echo U('/user/logout');?>" class="enroll">注销</a>
 	                	<?php } else{ ?>
-	                	<a href="<?php echo U('/api/user/reg');?>" class="enroll">注册</a>
+	                	<a href="<?php echo U('/user/reg');?>" class="enroll">注册</a>
 	                	<?php }?>
 	                </span>
 				</div>
@@ -132,9 +132,9 @@
 	            			</span>
 	            			<?php foreach ($value['child'] as $k => $v) { ?>	
                             <p>
-                            	<a href="<?php echo U('/api/goods/lists',array('id'=>$v['id']));?>"><?php echo $v['name'];?></a> 
+                            	<a href="<?php echo U('/goods/lists',array('id'=>$v['id']));?>"><?php echo $v['name'];?></a> 
                             	<?php foreach ($v['c'] as $k2 => $v2) { ?>
-                            		<a href="<?php echo U('/api/goods/lists',array('id'=>$v2['id']));?>"><?php echo $v2['name'];?></a> 
+                            		<a href="<?php echo U('/goods/lists',array('id'=>$v2['id']));?>"><?php echo $v2['name'];?></a> 
 								<?php } ?>
                             </p>
                             <?php } ?>
@@ -201,7 +201,7 @@
 								    </p>
 									<div class="section-right">
 									    <?php  foreach ($goods as $kg => $vg) { if(in_array($vg['classify_id'],$v['c'])!==false&&$vg['is_hot']&&$vg['status']){ ?>
-												<a href="<?php echo U('/api/goods/goodsInfo',array('id'=>$vg['id']));?>">
+												<a href="<?php echo U('/goods/goodsInfo',array('id'=>$vg['id']));?>">
 													<p><?php echo $vg['name'];?></p>
 													<span>￥<?php echo $vg['price'];?></span>
 													<img src="<?php echo $vg['img'];?>" alt="">

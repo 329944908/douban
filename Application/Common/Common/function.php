@@ -259,3 +259,17 @@ function pinyin_long($zh){
     }
     return $ret;
 }
+/**
+ * 获取数组中的某一列
+ * @param array $arr 数组
+ * @param string $key_name  列名
+ * @return array  返回那一列的数组
+ */
+function get_arr_column($arr, $key_name)
+{
+	$arr2 = array();
+	foreach($arr as $key => $val){
+		$arr2[] = $val[$key_name];        
+	}
+	return $arr2;
+}

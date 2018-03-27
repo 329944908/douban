@@ -28,8 +28,8 @@
 	                	</div>
 	                </div>
 	                <span class="new-login">
-	                	<a href="<?php echo U('/api/user/login');?>" class="login">登录</a>
-	                	<a href="<?php echo U('/api/user/reg');?>" class="enroll">注册</a>
+	                	<a href="<?php echo U('/user/login');?>" class="login">登录</a>
+	                	<a href="<?php echo U('/user/reg');?>" class="enroll">注册</a>
 	                </span>
 				</div>
 				<div class="header-right clearfix">
@@ -62,7 +62,7 @@
 			</div>
 		</div>
 		<div class="nav-search clearfix">
-			<form action="/api/goods/search" method="get">
+			<form action="/goods/search" method="get">
 			<div class="search-middle">
 				<span class="search-text clearfix">
 					
@@ -98,7 +98,7 @@
 	</div>
 	<div class="nav-carousel">
 	    <div class="nav-select">
-			<a href="<?php echo U('/api/index/index');?>">首页</a>
+			<a href="<?php echo U('/index/index');?>">首页</a>
 			<a href="javascript:void(0)">手机城</a>
 			<a href="javascript:void(0)">珠宝</a>
 			<a href="javascript:void(0)">家电城</a>
@@ -133,7 +133,7 @@
                             <p>
                             	<a href="javascript:void(0)"><?php echo $v['name'];?></a> 
                             	<?php foreach ($v['c'] as $k2 => $v2) { ?>
-                            		<a href="<?php echo U('/api/goods/lists',array('id'=>$v2['id']));?>"><?php echo $v2['name'];?></a> 
+                            		<a href="<?php echo U('/goods/lists',array('id'=>$v2['id']));?>"><?php echo $v2['name'];?></a> 
 								<?php } ?>
                             </p>
                             <?php } ?>
@@ -156,9 +156,9 @@
 			<b id="pa-bco"></b>
             <div class="path-hide hide">
 				<?php if($parent_classify_brother){ foreach ($parent_classify_brother as $key => $value) { ?>
-            				<a href="<?php echo U('/api/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
+            				<a href="<?php echo U('/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
             	<?php	} }else{ foreach ($child as $key => $value) { ?>
-            		<a href="<?php echo U('/api/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
+            		<a href="<?php echo U('/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
             		<?php } ?>
             	<?php } ?>
             </div>
@@ -170,7 +170,7 @@
 					<b id="pa-bco"></b>
 		            <div class="path-hide hide">
 		            <?php foreach ($classify_brother as $key => $value) { ?>
-		            	<a href="<?php echo U('/api/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
+		            	<a href="<?php echo U('/goods/lists',array('id'=>$value['id']));?>" target="_self"><?php echo $value['name'];?></a>
 		            <?php } ?>
 		            </div>
 				</div>
@@ -297,7 +297,7 @@
 			<?php foreach ($goods as $key => $value) { ?>
 				<div class="shop-buy">
 					<div class="buy-info">
-					    <a href="<?php echo U('/api/goods/goodsInfo',array('id'=>$value['id']));?>" class="info-a">
+					    <a href="<?php echo U('/goods/goodsInfo',array('id'=>$value['id']));?>" class="info-a">
 					    <?php foreach ($value['imgs'] as $k => $v) { if($k == 0){ ?>
 					    		<img src="<?php echo $v['img'];?>" alt="" class="img ">
 					    	<?php } ?>

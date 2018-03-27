@@ -129,6 +129,9 @@ class GoodsController extends Controller {
         //$where['exchange_integral'] = 0;//不检索积分商品
         $searchWordModel = D('SearchWord');
         $goodsModel = D('Goods');
+        $goodsPicModel = D('GoodsPic');
+        $classifyModel = D('classify');
+        $classify_data = $classifyModel->getAll(); 
         $searchWordModel->where(array('keywords'=>$q))->setInc('search_num');
         $goodsHaveSearchWord =$goodsModel->where($where)->count();
         if ($goodsHaveSearchWord) {
@@ -175,14 +178,27 @@ class GoodsController extends Controller {
         $count = count($filter_goods_id);
         $page = new Page($count, 20);
         if ($count > 0) {
-            $goods_list = M('goods')->where(['status' => 1, 'id' => ['in', implode(',', $filter_goods_id)]])->limit($page->firstRow . ',' . $page->listRows)->select();
-            //$filter_goods_id2 = get_arr_column($goods_list, 'id');
-            // if ($filter_goods_id2)
-            //     $goods_images = M('goods_images')->where("goods_id", "in", implode(',', $filter_goods_id2))->select();
+            $goods_list = $goodsModel->where(['status' => 1, 'id' => ['in', implode(',', $filter_goods_id)]])->limit($page->firstRow . ',' . $page->listRows)->select();
+            foreach ($goods_list as $key => $value) {
+            $goods_image = $goodsPicModel->getPic($value['id']);
+            if($goods_image){
+                foreach ($goods_image as $k => $v) {
+                    $goods_list[$key]['imgs'][$k]['img'] = C('ImageUrl').$goods_image[$k]['image'];
+                }
+            }else{
+                $goods_list[$key]['imgs'] = 'no image';
+            }
         }
-        var_dump($goods_list);die();
+            // $filter_goods_id2 = get_arr_column($goods_list, 'id');
+            // if ($filter_goods_id2)
+            //      $goods_images = $goodsPicModel->where("goods_id", "in", implode(',', $filter_goods_id2))->select();
+        }
+        //var_dump($goods_images);
+        // var_dump($goods_list);die();
         $this->assign('goods_list', $goods_list);
-        //$this->assign('goods_images', $goods_images);  // 相册图片
+         $this->assign('classify_data',$classify_data);
+        //var_dump($goods_list)
+        // $this->assign('goods_images', $goods_images);  // 相册图片
         //$this->assign('filter_menu', $filter_menu);  // 帅选菜单
         //$this->assign('filter_brand', $filter_brand);  // 列表页帅选属性 - 商品品牌
         //$this->assign('filter_price', $filter_price);// 帅选的价格期间
@@ -191,7 +207,7 @@ class GoodsController extends Controller {
         //$this->assign('cat_id', $id);
         //$this->assign('page', $page);// 赋值分页输出
         $this->assign('q', I('q'));
-        C('TOKEN_ON', false);
+        //C('TOKEN_ON', false);
         $this->display();
     }
 }

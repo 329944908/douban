@@ -19,9 +19,9 @@ define('APP_DEBUG',True);
 // 定义应用目录
 define('APP_PATH','./Application/');
 // 绑定访问Api模块
-// define('BIND_MODULE','Api');
+//define('BIND_MODULE','Api');
 // // 绑定访问Index控制器
-// define('BIND_CONTROLLER','Index');
+//define('BIND_CONTROLLER','Index');
 // // 绑定访问index操作
 // define('BIND_ACTION','index');
 // // 引入ThinkPHP入口文件
