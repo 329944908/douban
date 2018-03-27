@@ -44,7 +44,7 @@ class SpecController extends CommonController
  		$item = explode("\r\n", $items);
  		$specItemModel = D('SpecItem');
  		foreach ($item  as $key => $value){
- 			$data['item'] = $value;
+ 			$data['item'] = trim($value);
  			$data['spec_id'] = $spec_id;
  			$status = D('SpecItem')->where("spec_id = {$data['spec_id']} and item = '{$data['item']}'")->select();
  			if(!$status){

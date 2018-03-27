@@ -1,0 +1,2329 @@
+[ 2018-03-26T21:27:58+08:00 ] 127.0.0.1 /api/user/REG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010975s ]
+
+[ 2018-03-26T21:27:59+08:00 ] 127.0.0.1 /api/user/verifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2018-03-26T21:28:03+08:00 ] 127.0.0.1 /index.php/api/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-03-26T21:28:03+08:00 ] 127.0.0.1 /api/user/verifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2018-03-26T22:07:04+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','42','65','44','63','64')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 13  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: parent_parent_classify E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 147 行.
+NOTIC: [8] Undefined variable: parent_classify_brother E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 153 行.
+NOTIC: [8] Undefined variable: classify E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 162 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2018-03-26T22:07:08+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-03-26T22:08:35+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0239s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2018-03-26T22:08:39+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2018-03-26T22:08:41+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-26T22:08:48+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2018-03-26T22:08:50+08:00 ] 127.0.0.1 /index.php/api/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ad` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 10  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 16  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 17  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 18  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 19  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 21 行.
+NOTIC: [8] Undefined index: me E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\51b31191c7d9f8df7ef9291eadae4e42.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2018-03-26T22:09:00+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=35 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','手机','34','1','1')  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2018-03-26T22:09:53+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=35 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','手机','34','1','1')  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-03-26T22:11:48+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=35 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','手机','34','1','1')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 302 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 302 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 302 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 302 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2018-03-26T22:12:37+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=35 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','手机','34','1','1')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2018-03-26T22:12:53+08:00 ] 127.0.0.1 /index.php/api/goods/lists/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `goods_image` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=35 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE `classify_id` IN ('35','手机','34','1','1')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_image` WHERE `goods_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=34 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=43 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=28 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=48 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=49 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=45 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=46 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=47 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=50 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=51 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=52 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=53 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=31 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=54 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=55 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=56 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=57 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=58 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=59 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=33 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=36 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=37 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `classify` WHERE ( parent_id=27 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\ebay\Application\Runtime\Cache\Api\625862c37c2ae4c233a27a7603d44ff5.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2018-03-26T22:12:54+08:00 ] 127.0.0.1 /api/goods/search?q=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-03-26T22:13:11+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:13:51+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:17:57+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:18:41+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:21:48+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:21:49+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:21:50+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:21:50+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:24:05+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:26:37+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:26:49+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:28:35+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:34:31+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0061s ]
+
+[ 2018-03-26T22:35:37+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0823s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'classifys_id' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`classifys_id` FROM `goods` WHERE `name` LIKE '%手机%' 
+ERR: 1054:Unknown column 'classifys_id' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`classifys_id` FROM `goods` WHERE `name` LIKE '%手机%' 
+
+[ 2018-03-26T22:36:05+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 153 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+
+[ 2018-03-26T22:37:16+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0054s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0004s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 183 行.
+ERR: 模板不存在:./Application/Api/View/Goods/search.html
+
+[ 2018-03-26T22:37:49+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 182 行.
+
+[ 2018-03-26T22:38:13+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:39:01+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0042s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T22:39:03+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:40:12+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0048s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:40:14+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 182 行.
+
+[ 2018-03-26T22:40:16+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0048s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 182 行.
+
+[ 2018-03-26T22:40:19+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0047s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:41:03+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(\Application\Common\util\ChineseSpell.php): failed to open stream: No such file or directory E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+NOTIC: [2] include(): Failed opening '\Application\Common\util\ChineseSpell.php' for inclusion (include_path='E:\xampp\php\PEAR') E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0061s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T22:41:04+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include(\Application\Common\util\ChineseSpell.php): failed to open stream: No such file or directory E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+NOTIC: [2] include(): Failed opening '\Application\Common\util\ChineseSpell.php' for inclusion (include_path='E:\xampp\php\PEAR') E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0034s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:42:15+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:42:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0051s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-03-26T22:43:30+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:43:32+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:48:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:48:41+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:49:01+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:49:34+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include_once(.\util\ChineseSpell.php): failed to open stream: No such file or directory E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '.\util\ChineseSpell.php' for inclusion (include_path='E:\xampp\php\PEAR') E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0045s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T22:49:35+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include_once(.\util\ChineseSpell.php): failed to open stream: No such file or directory E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '.\util\ChineseSpell.php' for inclusion (include_path='E:\xampp\php\PEAR') E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:49:37+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] include_once(.\util\ChineseSpell.php): failed to open stream: No such file or directory E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '.\util\ChineseSpell.php' for inclusion (include_path='E:\xampp\php\PEAR') E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 4 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0058s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:50:48+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0053s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:50:51+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0051s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:54:41+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:54:57+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T22:55:57+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2018-03-26T22:56:04+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 39 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0047s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:57:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:57:35+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:57:47+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:58:31+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0056s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0048s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T22:58:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T22:58:34+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T23:03:13+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T23:04:10+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-03-26T23:09:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0034s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.0696s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0006s ]
+ERR: 1146:Table 'ebay.goods_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `goods_category`
+ERR: 1146:Table 'ebay.goods_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `goods_category`
+
+[ 2018-03-26T23:10:51+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.2077s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: sort E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 177 行.
+NOTIC: [8] Undefined variable: sort_asc E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 177 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') ORDER BY   LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') ORDER BY   LIMIT 0,20  
+
+[ 2018-03-26T23:11:42+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.0455s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: sort E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 177 行.
+NOTIC: [8] Undefined variable: sort_asc E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 177 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') ORDER BY   
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') ORDER BY   
+
+[ 2018-03-26T23:11:58+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0049s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.0584s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0009s ]
+
+[ 2018-03-26T23:12:41+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.1405s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0008s ]
+
+[ 2018-03-26T23:12:59+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0068s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0042s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.0874s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:15:43+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%9B%B7%E8%9B%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%雷蛇%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('雷蛇','leishe','ls','1','1') [ RunTime:0.0389s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%雷蛇%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('16') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:30:34+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.1498s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:30:36+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.1101s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:30:38+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%9B%B7%E8%9B%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%雷蛇%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('雷蛇','leishe','ls','1','1') [ RunTime:0.1204s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%雷蛇%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('16') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:30:45+08:00 ] 127.0.0.1 /api/goods/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%手机%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%手机%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 154 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 182 行.
+
+[ 2018-03-26T23:37:12+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( keywords ) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T23:39:57+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0051s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+ERR: 1054:Unknown column 'V' in 'where clause'
+ [ SQL语句 ] : UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( 'keywords', V )
+ERR: 1054:Unknown column 'V' in 'where clause'
+ [ SQL语句 ] : UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( 'keywords', V )
+
+[ 2018-03-26T23:40:24+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( 'keywords', 'V' )
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : UPDATE `search_word` SET `search_num`=search_num+1 WHERE ( 'keywords', 'V' )
+
+[ 2018-03-26T23:41:05+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.1008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE ( keywords ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T23:41:57+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('V','V','v','1','4') [ RunTime:0.1049s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0008s ]
+
+[ 2018-03-26T23:42:00+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.0935s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0004s ]
+ERR: Think\Model:update方法不存在！
+
+[ 2018-03-26T23:44:31+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0048s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.2342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0874s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:44:32+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.1008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0202s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0007s ]
+
+[ 2018-03-26T23:44:33+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.0503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0450s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0044s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.0615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0198s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0048s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.1073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0211s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /api/goods/search?q=V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'V' [ RunTime:0.1503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%V%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = 'V' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `search_word` SET `goods_num`='4' WHERE (  id ) AND (  21 ) [ RunTime:0.0426s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%V%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('9','11','12','20') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:44:52+08:00 ] 127.0.0.1 /api/goods/search?q=ls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'ls' [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%ls%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%ls%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 183 行.
+
+[ 2018-03-26T23:45:01+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%9B%B7%E8%9B%87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '雷蛇' [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%雷蛇%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '雷蛇' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('雷蛇','leishe','ls','1','1') [ RunTime:0.1191s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%雷蛇%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('16') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:45:05+08:00 ] 127.0.0.1 /api/goods/search?q=ls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0033s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'ls' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%ls%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%ls%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 183 行.
+
+[ 2018-03-26T23:46:09+08:00 ] 127.0.0.1 /api/goods/search?q=maren
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'maren' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%maren%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%maren%'  [ RunTime:0.0004s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 183 行.
+
+[ 2018-03-26T23:46:25+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0338s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0038s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '马人' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%马人%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '马人' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('马人','maren','mr','1','2') [ RunTime:0.1999s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%马人%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:50:36+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0048s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0033s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '马人' AND `pinyin_simple` = '马人' [ RunTime:0.0224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%马人%' LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '马人' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `search_word` SET `goods_num`='2' WHERE (  id ) AND (  23 ) [ RunTime:0.0492s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%马人%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:50:37+08:00 ] 127.0.0.1 /api/goods/search?q=%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0035s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '马人' AND `pinyin_simple` = '马人' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%马人%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '马人' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `search_word` SET `goods_num`='2' WHERE (  id ) AND (  23 ) [ RunTime:0.0622s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%马人%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:50:49+08:00 ] 127.0.0.1 /api/goods/search?q=mr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'mr' AND `pinyin_simple` = 'mr' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%mr%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%mr%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 155 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 156 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 183 行.
+
+[ 2018-03-26T23:54:54+08:00 ] 127.0.0.1 /api/goods/search?q=mr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'mr' [ RunTime:0.0004s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `pinyin_simple` = 'mr' [ RunTime:0.0605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%mr%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%mr%'  [ RunTime:0.0003s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 157 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 158 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 185 行.
+
+[ 2018-03-26T23:54:56+08:00 ] 127.0.0.1 /api/goods/search?q=mr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0044s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0036s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = 'mr' [ RunTime:0.0003s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `pinyin_simple` = 'mr' [ RunTime:0.1671s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%mr%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%mr%'  [ RunTime:0.0004s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 157 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 158 行.
+NOTIC: [8] Undefined variable: goods_list E:\xampp\htdocs\ebay\Application\Api\Controller\GoodsController.class.php 第 185 行.
+
+[ 2018-03-26T23:57:30+08:00 ] 127.0.0.1 /api/goods/search?q=%E7%89%A7%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0039s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '牧马人' [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%牧马人%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '牧马人' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+NOTIC: [8] iconv(): Detected an illegal character in input string E:\xampp\htdocs\ebay\Application\Common\Common\function.php 第 210 行.
+SQL: INSERT INTO `search_word` (`keywords`,`pinyin_full`,`pinyin_simple`,`search_num`,`goods_num`) VALUES ('牧马人','mumaren','mmr','1','2') [ RunTime:0.1305s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%牧马人%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:57:33+08:00 ] 127.0.0.1 /api/goods/search?q=%E7%89%A7%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0042s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '牧马人' [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%牧马人%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '牧马人' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `search_word` SET `goods_num`='2' WHERE (  id ) AND (  24 ) [ RunTime:0.0281s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%牧马人%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2018-03-26T23:57:34+08:00 ] 127.0.0.1 /api/goods/search?q=%E7%89%A7%E9%A9%AC%E4%BA%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\ebay\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0043s ]
+NOTIC: [8] Use of undefined constant PLUGIN_PATH - assumed 'PLUGIN_PATH' E:\xampp\htdocs\ebay\Application\Common\logic\SearchWordLogic.php 第 40 行.
+SQL: SHOW COLUMNS FROM `search_word` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0047s ]
+SQL: UPDATE `search_word` SET `search_num`=search_num+1 WHERE `keywords` = '牧马人' [ RunTime:0.0505s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE `name` LIKE '%牧马人%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `search_word` WHERE `keywords` = '牧马人' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `search_word` SET `goods_num`='2' WHERE (  id ) AND (  24 ) [ RunTime:0.0267s ]
+SQL: SELECT `id`,`classify_id` FROM `goods` WHERE `name` LIKE '%牧马人%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `status` = 1 AND `id` IN ('13','18') LIMIT 0,20   [ RunTime:0.0005s ]
+

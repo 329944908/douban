@@ -201,7 +201,7 @@
 								    </p>
 									<div class="section-right">
 									    <?php  foreach ($goods as $kg => $vg) { if(in_array($vg['classify_id'],$v['c'])!==false&&$vg['is_hot']&&$vg['status']){ ?>
-												<a href="javascript:void(0)">
+												<a href="<?php echo U('/api/goods/goodsInfo',array('id'=>$vg['id']));?>">
 													<p><?php echo $vg['name'];?></p>
 													<span>￥<?php echo $vg['price'];?></span>
 													<img src="<?php echo $vg['img'];?>" alt="">

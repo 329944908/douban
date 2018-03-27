@@ -23,14 +23,6 @@ class IndexController extends Controller {
                 $goods_data[$key]['img'] = 'no image';
             }
     	}
-    	// $result = array(
-    	// 	"banner" => $ad_data,
-    	// 	"goods"  => $goods_data,
-    	// 	);
-    	// _res($result);
-        // var_dump($ad_data);
-        // var_dump($classify_data);
-        // var_dump($goods_data);
         $this->assign('ad',$ad_data);
         $this->assign('classify',$classify_data);
         $this->assign('goods',$goods_data);

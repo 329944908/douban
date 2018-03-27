@@ -10,4 +10,9 @@ class UserModel extends BaseModel {
 		$data = $this->where("phone = '{$phone}'")->find();
 		return $data;
 	}
+	public function activate($token){
+		$data['email_verify'] =1;
+        $res = $this->where("token = '{$token}'")->save($data);
+        return $res;
+	}
 }

@@ -21,16 +21,21 @@ class UserController extends Controller {
 		$userModel = D('User');
 		$data = $userModel->getUserInfoByEmail($email);
 		$res = check_verify($verifyCode, $id = '');
-		if($password ==$data['password']){
-			if($res){
-				$_SESSION['me']  = $data;
-				$this->success('', '/api/Index/index');
+		if($data['email_verify']){
+			if($password ==$data['password']){
+				if($res){
+					$_SESSION['me']  = $data;
+					$this->success('', '/api/Index/index');
+				}else{
+					_res('验证码错误',false,'1004');
+				}
 			}else{
-				_res('验证码错误',false,'1004');
+				_res('密码错误',false,'1002');
 			}
 		}else{
-			_res('密码错误',false,'1002');
+			$this->error('邮箱未激活');
 		}
+		
 	}
 	public function logout(){
 			unset($_SESSION['me']);
@@ -50,30 +55,46 @@ class UserController extends Controller {
 					$userModel = D('User');
 					$status = $userModel->add($data);
 					if ($status){
-		     			$this->success('注册成功','/api/user/login');
+		     			$this->success('注册成功','/api/user/login','100');
 					}else{
 		    			$this->error('注册失败');
 					}
 				}else{
 					_res('验证码错误',false,'1004');
 				}
+					
 			}else{
 				_res('不能为空',false,'1005');
 			}
 					
 	}
 	public function doReg2(){
-			$data = array();
-			$data['email'] = $_POST['email'];
-			$data['password'] = $_POST['password'];
-			$data['verifyCode'] = $_POST['verifyCode'];
+		$data = array();
+		$data['email'] = $_POST['email'];
+		$data['password'] = $_POST['password'];
+		$data['token'] = $data['email'].'_'.time().'_'.rand(0,10000);
+		$data['token'] =md5($data['token']);
+		$status = sendEmail($data['email'],$data['token']);
+		if($status){
 			$userModel = D('User');
-			$status = $userModel->add($data);
-			if ($status){
-     			$this->success('注册成功','/api/user/login');
+			$res = $userModel->add($data);
+			if ($res){
+     			$this->success('已发送信息到邮箱，请继续完成验证','/api/user/login');
 			}else{
     			$this->error('注册失败');
 			}
+		}
+
+	}
+	public function activate_mailbox(){
+		$token = $_GET['token'];
+		$userModel=D('User');
+		$res = $userModel->activate($token);
+		if ($res){
+     		$this->success('验证成功','/api/user/login');
+		}else{
+    		$this->error('注册失败');
+		}
 	}
 	public function checkUserId(){
 		$phone = I('get.phone','');
@@ -98,7 +119,7 @@ class UserController extends Controller {
 	public function checkUserEmail(){
 		$email = I('get.email','');
 		if(!empty($email)){
-			$isMatched = preg_match("/^([0-9A-Za-z]+)@(?:qq|163)\.(?:cn|com)/",$phone);
+			$isMatched = preg_match("/^([0-9A-Za-z]+)@(?:qq|163)\.(?:cn|com)/",$email);
 			if($isMatched){
 				$userModel = D('User');
 				$data = $userModel->getUserInfoByEmail($email);
@@ -114,4 +135,13 @@ class UserController extends Controller {
 			echo "<font color=red><nobr>邮箱不能为空</nobr></font>";
 		}
 	}
+	// public function check_verify(){
+	// 	$verifyCode = I('get.verifyCode','');
+	//     $verify = new \Think\Verify();
+	//     $res = $verify->check($verifyCode,'');
+	//     if ($res) {
+	// 	}else{
+	// 		$ret = false;
+	// 	}
+	// }
 }

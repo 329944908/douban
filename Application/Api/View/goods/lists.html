@@ -62,10 +62,14 @@
 			</div>
 		</div>
 		<div class="nav-search clearfix">
+			<form action="/api/goods/search" method="get">
 			<div class="search-middle">
 				<span class="search-text clearfix">
-					<input type="text" placeholder="请输入搜素关键词...">
-				    <a href="javascript:void(0)">搜索</a>
+					
+						<input type="text" placeholder="请输入搜素关键词..." name="q">
+						<input type="submit" name="" value="搜索">
+					
+				    <!-- <a href="javascript:void(0)">搜索</a> -->
 				</span>
 				<span class="clearfix">
 					<a href="javascript:void(0)">小米</a>
@@ -76,6 +80,7 @@
 					<a href="javascript:void(0)">冰箱</a>
 				</span>
 			</div>
+			</form>
 			<div class="shoping-abo">
 				<div class="shoping clearfix">
 					<i></i>
@@ -144,14 +149,25 @@
 	<div class="seach-path">
 		<a href="javascript:void(0)">全部结果</a>
 		<i class="path-ico"></i>
-		<a href="javascript:void(0)"><?php echo $parent_parent_classify['name'];?></a>
+		<a href="javascript:void(0)"><?php 
+			if($parent_parent_classify['name']){
+				echo $parent_parent_classify['name'];
+			}else{
+			echo $parent_classify['name'];
+		}?></a>
 		<i class="path-ico"></i>
 		<div class="path-box">
 			<a href="javascript:void(0)"><?php echo $parent_classify['name'];?></a>
 			<b id="pa-bco"></b>
             <div class="path-hide hide">
-            	<?php foreach ($parent_classify_brother as $key => $value) { ?>
+				<?php if($parent_classify_brother){ 
+						foreach ($parent_classify_brother as $key => $value) { ?>
+            				<a href="{:U('/api/goods/lists',array('id'=>$value['id']))}" target="_self"><?php echo $value['name'];?></a>
+            	<?php	} 
+            		}else{ 
+            		foreach ($child as $key => $value) { ?>
             		<a href="{:U('/api/goods/lists',array('id'=>$value['id']))}" target="_self"><?php echo $value['name'];?></a>
+            		<?php } ?>
             	<?php } ?>
             </div>
 		</div>
@@ -289,16 +305,16 @@
 			<?php foreach ($goods as $key => $value) { ?>
 				<div class="shop-buy">
 					<div class="buy-info">
-					    <a href="javascript:void(0)" class="info-a">
+					    <a href="{:U('/api/goods/goodsInfo',array('id'=>$value['id']))}" class="info-a">
 					    <?php foreach ($value['imgs'] as $k => $v) { 
 					    	if($k == 0){ ?>
 					    		<img src="<?php echo $v['img'];?>" alt="" class="img ">
 					    	<?php } ?>
-							<img src="<?php echo $v['img'];?>" alt="" class="img  hide">
+							<img src="<?php echo $value['imgs'][$k+1]['img'];?>" alt="" class="img  hide">
 						<?php } ?>
 					    </a>
 						<ul class="clearfix">
-							<?php foreach ($value['imgs'] as $k => $v) { ?>
+							<?php foreach ($value['imgs'] as $k => $v) { ;?>
 								<li ><a href="javascript:void(0)">
 									<img src="<?php echo $v['img'];?>" alt="" class="img">
 								</a></li>

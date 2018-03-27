@@ -31,4 +31,19 @@ class GoodsController extends CommonController
         }
         return $where;
 	}
+	public function details(){
+		$id = isset($_GET['id'])?$_GET['id']:0;
+        $this->assign('goods_id',$id);
+        $this->display();
+	}
+	public function addAetails(){
+		$goods_id = I('post.goods_id');
+		$details = I('post.editorValue');
+        $res = D($this->model)->where(array('id'=>$goods_id))->setField('details',$details);
+        if($res){
+        	$this->success('su','/Admin/Goods/lists');
+        }else{
+        	echo "string";
+        }
+	}
 }

@@ -11,6 +11,7 @@ class GoodsModel extends BaseModel {
 		$data['is_hot'] = $info['is_hot'];
 		$data['status'] = $info['status'];
 		$data['market_price'] = $info['market_price'];
+		$data['details'] = htmlentities($info['details']);
 		return $data;
 	}
 	public function getGoodsByClassify($classify){

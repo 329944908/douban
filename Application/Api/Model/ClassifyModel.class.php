@@ -21,5 +21,19 @@ class ClassifyModel extends BaseModel {
 			}
 		}
 		return $data;
-	} 
+	}
+	public function getParent_classify($id){
+		$classifyArr =array();
+		$classify = $this->getBasicInfo($id);
+		$classifyArr['classify'] = $classify;
+		if($classify['parent_id']){
+			$parent_classify = $this->getBasicInfo($classify['parent_id']);
+			$classifyArr['parent_classify'] = $parent_classify;
+			if($parent_classify['parent_id']){
+				$parent_parent_classify = $this->getBasicInfo($parent_classify['parent_id']);
+				$classifyArr['parent_parent_classify'] = $parent_parent_classify;
+			}
+		}
+		return $classifyArr; 
+	}
 }

@@ -66,6 +66,7 @@
                             <th>状态</th>
                             <th>hot</th>
                             <th>图片</th>
+                            <th>详情</th>
                             <th>edit</th>
                         </tr>
                         </thead>
@@ -91,6 +92,7 @@
                                 <?php } ?>
                                 </td>
                                 <td><a href="<?php echo U('admin/GoodsPic/add',array('id'=>$vo['id']));?>">上传图片</a></td>
+                                 <td><a href="<?php echo U('admin/goods/details',array('id'=>$vo['id']));?>">编辑</a></td>
                                  <td><a href="<?php echo U('admin/goods/edit',array('id'=>$vo['id']));?>">edit</a></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>

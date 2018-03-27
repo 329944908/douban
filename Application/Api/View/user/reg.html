@@ -6,25 +6,8 @@
 	<link rel="stylesheet" href="__PUBLIC__/api/css/regcon.css" type="text/css">
 
 	<script type="text/javascript" src="__PUBLIC__/api/js/jquery-3.2.0.min.js"></script>
-	<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
-	<script type="text/javascript">
-	$(function() {
-		$('.verify').click(function(){
-			newsrc="/Api/User/verifyCode/v/"+Math.random();
-			$('.verify').attr('src',newsrc);
-		})
-		$('.ch').click(function(){
-			var checkbox = document.getElementById("ch");//选中checkbox的id；
-            if(checkbox.checked==true){//按钮已选中
-                document.getElementById("but").style.backgroundColor="red";
-                document.getElementById("but").removeAttribute("disabled");//移除disabled
-            }else{
-                document.getElementById("but").disadled="disabled";
-            }
-		})
-
-	})
-	</script>
+	<!-- // <script src="http://code.jquery.com/jquery-3.2.1.js"></script> -->
+	
 </head>
 <body>
 	<div class="login-welcome">
@@ -45,7 +28,7 @@
 	</div>
 	<div class="tab-form">
 		<div class="new-tabform">
-		<form action="/api/user/doReg1" method="post">
+		<form action="/api/user/doReg1" method="post" >
 			<div class="tab-line">
 				<span>手机号码:</span>
 				<input type="text" placeholder="请输入手机号码" name="phone" title="请填写此字段" class="click-phone" id="phone">
@@ -75,7 +58,7 @@
 				</span>
 			</div>
 			<div class="check check-a check-about" >
-				<input type="submit" disabled="disabled" id="but" value="同意协议并注册">
+				<input type="submit" id="but" value="同意协议并注册" >
 			</div>
 		</form>
 		</div>
@@ -88,7 +71,7 @@
 			</div>
 			<div class="tab-line">
 				<span>图像验证码:</span>
-				<input type="text" placeholder="请输入验证码" name="user-phone" class="line-pmg" title="请填写此字段" >
+				<input type="text" placeholder="请输入验证码" name="verifyCode1" class="line-pmg1" title="请填写此字段" >
 				<span class="make-number">
 				    <img src="/api/user/verifyCode" class="verify"></img>
 				</span>
@@ -96,22 +79,22 @@
 			</div>
 			<div class="tab-line">
 				<span>设置密码:</span>
-				<input type="password" placeholder="请输入密码" name="user-phone" title="请填写此字段" class="click-mi">
+				<input type="password" placeholder="请输入密码" name="password" title="请填写此字段" class="click-mi">
 				<p class="hide"></p>
 
 			</div>
 			<div class="tab-line">
 				<span>确认密码:</span>
-				<input type="password" placeholder="请再次输入密码" name="user-phone" title="请填写此字段" class="click-que">
+				<input type="password" placeholder="请再次输入密码" name="password" title="请填写此字段" class="click-que">
 				<p class="hide"></p>
 
 			</div>
 			<div class="check">
-				<input type="checkbox" id="hecheck" onclick="document.form.b1.disabled=false"><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
+				<input type="checkbox" id="hecheck" ><span>我已阅读并同意<a href="javascript:void(0)">《TPshop网服务协议》</a>
 				</span>
 			</div>
-			<div class="check check-a check-about" >
-				<input type="submit" name="b1" value="同意协议并注册" >
+			<div class="check check-a check-click" >
+				<input type="submit" name="b1" value="同意协议并注册" id="b1">
 			</div>
 		</form>
 		</div>
@@ -353,6 +336,12 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="__PUBLIC__/api/js/segcon.js"></script>
-
+    <script>
+       $(function(){
+       	function aaa() {
+       	return false;
+       }
+       })
+    </script>
 </body>
 </html>
