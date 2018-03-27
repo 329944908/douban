@@ -15,8 +15,8 @@ return array(
         '__PC__' => __ROOT__.'/Public/PC',
         '__TMPL__' => __ROOT__.'/Application/Home/View/default',
     ),
-    'APP_SUB_DOMAIN_DEPLOY'   =>    1,
-    'APP_SUB_DOMAIN_RULES'    =>    array(   
-    'yyxking.com'  => 'Api',  
-    ),
+    // 'APP_SUB_DOMAIN_DEPLOY'   =>    1,
+    // 'APP_SUB_DOMAIN_RULES'    =>    array(   
+    // 'yyxking.com'  => 'Api',  
+    // ),
 );
