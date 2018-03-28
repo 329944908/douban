@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" href="__PUBLIC__/home/css/lists.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/home/css/b2c.css" type="text/css">
+	<script type="text/javascript" src="__PUBLIC__/home/js/jquery-3.2.0.min.js"></script>	
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header clearfix">
+		<div class="box-header">
+			<div class="new-header clearfix">
+				<div class="header-left">
+				    送货至：
+	                <a href="javascript:void(0)" class="city">北京市，
+	                 <i></i>
+	                </a>
+	                <div class="city-hide hide">
+	                	<div class="choose-city">
+	                		<a href="javascript:void(0)" class="cap-city">北京市</a>
+	                		<a href="javascript:void(0)" class="mun-city">市辖区</a>
+	                		<a href="javascript:void(0)" class="area-city">朝阳区</a>
+	                	</div>
+	                	<div class="about-city">
+	                		
+	                	</div>
+	                </div>
+	                <span class="new-login">
+	                	<a href="{:U('/user/login')}" class="login">登录</a>
+	                	<a href="{:U('/user/reg')}" class="enroll">注册</a>
+	                </span>
+				</div>
+				<div class="header-right clearfix">
+					 <ul class="clearfix header-ul">
+					 	<li>
+					 		<a href="javascript:void(0)">我的订单</a>
+					 	</li>
+					 	<li>
+					 		<a href="javascript:void(0)">我的浏览</a>
+					 	</li>
+					 	<li>
+					 		<a href="javascript:void(0)">我的收藏</a>
+					 	</li>
+					 	<li>
+					 		<a href="javascript:void(0)">客户服务</a>
+					 	</li>
+					 	<li>
+					 		<a href="javascript:void(0)" class="webb">
+							   	网站导航<i></i>
+							   <span class="bigs"></span>  
+							</a>
+							<div class="web-hide clearfix hide">
+	                       	   <a href="javascript:void(0)" class="web-about">优惠活动</a>
+	                       	   <a href="javascript:void(0)" class="web-about">优惠活动</a>
+	                       	   <a href="javascript:void(0)" class="web-about">优惠活动</a>
+	                       </div>
+					 	</li>
+					 </ul>	
+				</div>
+			</div>
+		</div>
+		<div class="nav-search clearfix">
+			<form action="/goods/search" method="get">
+			<div class="search-middle">
+				<span class="search-text clearfix">
+					<input type="text" placeholder="请输入搜素关键词..." class="text-text" name="q">
+				    <input type="submit" value="搜索" class="text-sub">
+				</span>
+				<span class="clearfix">
+					<a href="javascript:void(0)">小米</a>
+					<a href="javascript:void(0)">手机</a>
+					<a href="javascript:void(0)">iphone</a>
+					<a href="javascript:void(0)">三星</a>
+					<a href="javascript:void(0)">华为</a>
+					<a href="javascript:void(0)">冰箱</a>
+				</span>
+			</div>
+			</form>
+			<div class="shoping-abo">
+				<div class="shoping clearfix">
+					<i></i>
+					我的购物车
+					<sup>0</sup>
+			    </div>
+			    <div class="shoping-a hide">
+					<span>
+						<i></i>
+						亲！购物车里没有商品哦
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="nav-carousel">
+	    <div class="nav-select">
+			<a href="{:U('/index/index')}">首页</a>
+			<a href="javascript:void(0)">手机城</a>
+			<a href="javascript:void(0)">珠宝</a>
+			<a href="javascript:void(0)">家电城</a>
+			<a href="javascript:void(0)">促销商品</a>
+			<a href="javascript:void(0)">预售</a>
+			<a href="javascript:void(0)">数码城</a>
+			<a href="javascript:void(0)">团购</a>
+	        <a href="javascript:void(0)">积分商城</a>
+		</div>
+		<div class="nav-goods clearfix" id="nav-goods">
+	        <div>
+	    		<a href="javascript:void(0)">
+	        		<i class="ico-0"></i>
+	        		全部商品分类
+	        	</a>
+	    	</div>
+	    	<?php foreach ($classify_data as $key => $value) { ?>
+	    	<div>
+	    		<a href="javascript:void(0)">
+	        		<i class="ico-<?php echo $key+1;?>"></i>
+	            		<?php echo $value['name'];?>
+	        	</a>
+	        	<div class="make hide"></div>
+	        	<div class="classify hide clearfix">
+	        		<div class="new-classify">
+	        			<span id="expret">
+	        				<a href="javascript:void(0)" > 电池，电源，充电器
+	        			    <i>></i>
+	        			    </a>
+	        			</span>
+	        			<?php foreach ($value['child'] as $k => $v) { ?>	
+                            <p>
+                            	<a href="javascript:void(0)"><?php echo $v['name'];?></a> 
+                            	<?php foreach ($v['c'] as $k2 => $v2) { ?>
+                            		<a href="{:U('/goods/lists',array('id'=>$v2['id']))}"><?php echo $v2['name'];?></a> 
+								<?php } ?>
+                            </p>
+                            <?php } ?>
+	        		</div>
+	        		<div class="make-img">
+	        			<img src="__PUBLIC__/home/image/make-img.jpg" alt="">
+	        		</div>
+	        	</div>
+	    	</div>
+	    	<?php } ?>
+	    </div>
+	</div>
+	<div class="seach-path">
+		<a href="javascript:void(0)">全部结果</a>
+		<i class="path-ico"></i>
+		<a href="javascript:void(0)"><?php 
+			if($parent_parent_classify['name']){
+				echo $parent_parent_classify['name'];
+			}else{
+			echo $parent_classify['name'];
+		}?></a>
+		<i class="path-ico"></i>
+		<div class="path-box">
+			<a href="javascript:void(0)"><?php echo $parent_classify['name'];?></a>
+			<b id="pa-bco"></b>
+            <div class="path-hide hide">
+				<?php if($parent_classify_brother){ 
+						foreach ($parent_classify_brother as $key => $value) { ?>
+            				<a href="{:U('/goods/lists',array('id'=>$value['id']))}" target="_self"><?php echo $value['name'];?></a>
+            	<?php	} 
+            		}else{ 
+            		foreach ($child as $key => $value) { ?>
+            		<a href="{:U('/goods/lists',array('id'=>$value['id']))}" target="_self"><?php echo $value['name'];?></a>
+            		<?php } ?>
+            	<?php } ?>
+            </div>
+		</div>
+		<i class="path-ico"></i>
+			<?php if($classify){ ?>
+				<div class="path-box">
+					<a href="javascript:void(0)"><?php echo $classify['name'];?></a>
+					<b id="pa-bco"></b>
+		            <div class="path-hide hide">
+		            <?php foreach ($classify_brother as $key => $value) { ?>
+		            	<a href="{:U('/goods/lists',array('id'=>$value['id']))}" target="_self"><?php echo $value['name'];?></a>
+		            <?php } ?>
+		            </div>
+				</div>
+				<i class="path-ico"></i>
+			<?php } ?>
+        <a href="javascript:void(0)">清空筛选条件</a>
+	</div>
+	<div class="list-box clearfix">
+		<dl class="drand-about clearfix">
+			<dt>分类筛选</dt>
+			<dd class="list-content">
+				<span class="text-color">
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">手机配件</a>
+				</span>	
+				<span class="list-bee"><a href="javascript:void(0)">
+					更多<i class="bee-i"></i>
+				</a></span>
+				<span class="fuu-check">
+					<input type="submit" name="" class="ture" value="确定">
+					<input type="submit" name="" class="fault"  value="取消">
+				</span>
+			</dd>
+		</dl>
+		<dl class="drand-about clearfix">
+			<dt>品牌</dt>
+			<dd class="list-content clearfix">
+			<span class="text-color">
+				<a href="javascript:void(0)" class="ping-img">
+					<img src="__PUBLIC__/home/image/17747973.jpg" alt="">
+					<span>品牌/现代</span>
+				</a>
+			</span>	
+				<span class="list-bee"><a href="javascript:void(0)">
+					多选<i class="bee-more"></i>
+				</a></span>
+				<span class="fuu-check">
+					<input type="submit" name="" class="ture" value="确定">
+					<input type="submit" name="" class="fault"  value="取消">
+				</span>
+			</dd>
+		</dl>
+		<dl class="drand-about clearfix">
+			<dt>屏幕</dt>
+			<dd class="list-content clearfix">
+				<span class="text-color">
+				    <input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">现代触屏/</a>
+				</span>
+				<span class="list-bee"><a href="javascript:void(0)">
+					多选<i class="bee-more"></i>
+				</a></span>
+				<span class="fuu-check">
+					<input type="submit" name="" class="ture" value="确定">
+					<input type="submit" name="" class="fault"  value="取消">
+				</span>
+			</dd>
+		</dl>
+		<dl class="drand-about clearfix">
+			<dt>颜色</dt>
+			<dd class="list-content clearfix">
+				<span class="text-color">
+				    <input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">土豪金</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">象牙白</a>
+					<input type="checkbox" name="" class="fu-check">
+					<a href="javascript:void(0)">宝石蓝</a>
+				</span>
+				<span class="list-bee"><a href="javascript:void(0)">
+					多选<i class="bee-more"></i>
+				</a></span>
+				<span class="fuu-check">
+					<input type="submit" name="" class="ture" value="确定">
+					<input type="submit" name="" class="fault"  value="取消">
+				</span>
+			</dd>
+		</dl>
+		<a href="javascript:void(0)" class="more-option">更多选项</a>
+	</div>
+	<div class="shop-ware clearfix">
+		<div class="ware-hot">
+			<div class="hot-total">
+				<h3>推荐热卖</h3>
+			</div>
+			<div class="alone-shop">
+				<a href="javascript:void(0)">
+					<img src="__PUBLIC__/home/image/goods_thumb_1_180_180.jpeg" alt="">
+					<p>Apple iPhone 6s Plus 16G 玫瑰金 移动联通电信4G手机</p>
+					<span>￥6600</span>
+				</a>
+			</div>
+		</div>
+		<div class="ware-general">
+			<div class="changle">
+				<ul class="clearfix">
+					<li><a href="javascript:void(0)">综合</a></li>
+					<li><a href="javascript:void(0)">销量</a></li>
+					<li><a href="javascript:void(0)">价格<i class="money-changle"></i></a></li>
+					<li><a href="javascript:void(0)">评价</a></li>
+					<li><a href="javascript:void(0)">新品</a></li>
+				</ul>
+				<div class="ji-number clearfix">
+					<span>共31个商品</span>
+					<div class="number-list">
+						<a class="list-left" href="javascript:void(0)"><</a>
+						<div>
+							<span>1</span>/<span>2</span>
+						</div>
+						<a class="list-right" href="javascript:void(0)">></a>
+					</div>
+				</div>
+			</div>
+			<?php foreach ($goods as $key => $value) { ?>
+				<div class="shop-buy">
+					<div class="buy-info">
+					    <a href="{:U('/goods/goodsInfo',array('id'=>$value['id']))}" class="info-a">
+					    <?php foreach ($value['imgs'] as $k => $v) { 
+					    	if($k == 0){ ?>
+					    		<img src="<?php echo $v['img'];?>" alt="" class="img ">
+					    	<?php } ?>
+							<img src="<?php echo $value['imgs'][$k+1]['img'];?>" alt="" class="img  hide">
+						<?php } ?>
+					    </a>
+						<ul class="clearfix">
+							<?php foreach ($value['imgs'] as $k => $v) { ;?>
+								<li ><a href="javascript:void(0)">
+									<img src="<?php echo $v['img'];?>" alt="" class="img">
+								</a></li>
+							<?php } ?>
+						</ul>
+						<div class="info-money"><span>￥<?php echo $value['price'];?></span><span>￥<?php echo $value['market_price'];?></span></div>
+						<div class="info-xi"><a href="javascript:void(0)"><?php echo $value['name'];?></a></div>
+						<div class="do-buymore">
+							<div class="buy-number clearfix">
+								<span>
+									<input type="text" value="1" id="number-mu" class="num">
+								</span>
+								<span>
+								    <input class="add" name="" type="button"  /> 
+									<input class="min" name="" type="button"  /> 
+								</span>
+							</div>
+							<a href="javascript:void(0)">加入购物车</a>
+						</div>
+					</div>
+				</div>
+			<?php } ?>
+		</div>
+	</div>
+	<div class="floor">
+		<div class="floor-make">
+			<div>
+				<span>
+					<i class="make-0"></i>
+					7天无理由退货
+				</span>
+				<span>
+					<i class="make-1"></i>
+					15天免费换货
+				</span>
+				<span>
+					<i class="make-2"></i>
+					正品行货 品质保障
+				</span>
+				<span>
+					<i class="make-3"></i>
+					专业售后服务
+				</span>
+			</div>
+		</div>
+		<div class="new-floor">
+			<div class="floor-more clearfix">
+				<div class="clearfix">
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:void(0)">会员修改密码
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">修改个人资料
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员等级
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">
+							常见问题
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员地址
+							</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:void(0)">会员修改密码
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">修改个人资料
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员等级
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">
+							常见问题
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员地址
+							</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:void(0)">会员修改密码
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">修改个人资料
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员等级
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">
+							常见问题
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员地址
+							</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:void(0)">会员修改密码
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">修改个人资料
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员等级
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">
+							常见问题
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员地址
+							</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:void(0)">会员修改密码
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">修改个人资料
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员等级
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">
+							常见问题
+							</a>
+						</dd>
+						<dd>
+							<a href="javascript:void(0)">会员地址
+							</a>
+						</dd>
+					</dl>
+					<span class="fend">
+						<b>友情链接：</b>
+						<div class="first">
+							<a href="javascript:void(0)" >
+							淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+							<a href="javascript:void(0)">
+								淘宝商城
+							</a>
+						</div>
+					</span>
+				</div>
+				<div>
+					<span>联系我们</span>
+					<span class="color">123456789</span>
+					<p>周一至周日8:00-18:00</br>
+					  (仅收市话费)
+					</p>
+					<a href="javascript:void(0)">
+						<img src="__PUBLIC__/home/image/qrcode.png" alt="">
+					</a>
+					<a href="javascript:void(0)">
+						<img src="__PUBLIC__/home/image/qrcode.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="over">
+			<div class="new-over">
+				<span>
+					<a href="javascript:void(0)">关于我们</a>
+					<a href="javascript:void(0)">关于我们</a>
+					<a href="javascript:void(0)">关于我们</a>
+					<a href="javascript:void(0)">关于我们</a>
+					<a href="javascript:void(0)">关于我们</a>
+					<a href="javascript:void(0)">关于我们</a>
+				</span>
+				<p>Copyright © 2016-2025 TPshop商城 版权所有 保留一切权利 备案号:粤12345678号
+				</p>
+				<p>
+					<a href="javascript:void(0)" class="over-0"></a>
+					<a href="javascript:void(0)" class="over-1"></a>
+					<a href="javascript:void(0)" class="over-2"></a>
+					<a href="javascript:void(0)" class="over-3"></a>
+					<a href="javascript:void(0)" class="over-4"></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/home/js/lists.js"></script>	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//加的效果
+			$(".add").click(function(){
+			var n=$(this).parent().prev().children(".num").val();
+			console.log(n);
+			var num=parseInt(n)+1;
+			if(num==0){ return;}
+			$(this).parent().prev().children(".num").val(num);
+			});
+			//减的效果
+			$(".min").click(function(){
+			var n=$(this).parent().prev().children(".num").val();
+			var num=parseInt(n)-1;
+			if(num==0){ return}
+			$(this).parent().prev().children(".num").val(num);
+			});
+		})
+	</script>
+</body>
+</html>

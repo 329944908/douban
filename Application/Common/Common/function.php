@@ -177,7 +177,7 @@ function sendEmail($revice,$token){
 		//添加该邮件的主题
 		$mail->Subject = 'TPShop商城';
 		//添加邮件正文 上方将isHTML设置成了true，则可以是完整的html字符串 如：使用file_get_contents函数读取本地的html文件
-		$url = "http://ebay.com/api/User/activate_mailbox?token={$token}";
+		$url = "http://ebay.com/User/activate_mailbox?token={$token}";
 		$mail->Body = "
 				<div>
 				<h2 >欢迎注册TPShop商城</h2>

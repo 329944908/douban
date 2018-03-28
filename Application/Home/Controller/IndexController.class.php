@@ -3,6 +3,29 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+    	$goodsModel = D('Goods');
+    	$goodsPicModel = D('GoodsPic');
+    	$adModel = D('Ad');
+        $classifyModel = D('Classify');
+    	$ad_data = $adModel->getList();
+        $classify_data = $classifyModel->getAll();
+    	foreach ($ad_data as $key => $value) {
+    		$ad_data[$key] = $adModel->format($value);
+            $ad_data[$key]['img'] = C('ImageUrl').$value['image'];
+    	}
+    	$goods_data = $goodsModel->getList();
+    	foreach ($goods_data as $key => $value) {
+    		$goods_data[$key] = $goodsModel->format($value);
+    		$goods_image = $goodsPicModel->getPic($value['id']);
+            if($goods_image){
+                $goods_data[$key]['img'] = C('ImageUrl').$goods_image[0]['image'];
+            }else{
+                $goods_data[$key]['img'] = 'no image';
+            }
+    	}
+        $this->assign('ad',$ad_data);
+        $this->assign('classify',$classify_data);
+        $this->assign('goods',$goods_data);
+        $this->display();
     }
 }
