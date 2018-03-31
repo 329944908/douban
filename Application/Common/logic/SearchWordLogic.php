@@ -1,5 +1,5 @@
 <?php
-namespace Application\Common\logic;
+namespace Common\logic;
 use Think\Model\RelationModel;
 use Common\util\ChineseSpell;
 import('Application.Common.Util.ChineseSpell');

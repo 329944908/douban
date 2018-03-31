@@ -123,7 +123,7 @@ class GoodsController extends Controller {
         //$price && ($filter_param['price'] = $price); //加入帅选条件中
         $q && ($_GET['q'] = $filter_param['q'] = $q); //加入帅选条件中
         //$goodsLogic = new GoodsLogic(); // 前台商品操作逻辑类
-        $SearchWordLogic = new SearchWordLogic();
+        $SearchWordLogic = new \Common\logic\SearchWordLogic();
         $where = $SearchWordLogic->getSearchWordWhere($q);
         //$where['is_on_sale'] = 1;
         //$where['exchange_integral'] = 0;//不检索积分商品
