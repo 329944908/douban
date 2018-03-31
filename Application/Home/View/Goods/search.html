@@ -28,8 +28,8 @@
 	                	</div>
 	                </div>
 	                <span class="new-login">
-	                	<a href="{:U('/user/login')}" class="login">登录</a>
-	                	<a href="{:U('/user/reg')}" class="enroll">注册</a>
+	                	<a href="{:U('/Home/user/login')}" class="login">登录</a>
+	                	<a href="{:U('/Home/user/reg')}" class="enroll">注册</a>
 	                </span>
 				</div>
 				<div class="header-right clearfix">
@@ -95,7 +95,7 @@
 	</div>
 	<div class="nav-carousel">
 	    <div class="nav-select">
-			<a href="{:U('/index/index')}">首页</a>
+			<a href="{:U('/Home/index/index')}">首页</a>
 			<a href="javascript:void(0)">手机城</a>
 			<a href="javascript:void(0)">珠宝</a>
 			<a href="javascript:void(0)">家电城</a>
@@ -130,7 +130,7 @@
                             <p>
                             	<a href="javascript:void(0)"><?php echo $v['name'];?></a> 
                             	<?php foreach ($v['c'] as $k2 => $v2) { ?>
-                            		<a href="{:U('/goods/lists',array('id'=>$v2['id']))}"><?php echo $v2['name'];?></a> 
+                            		<a href="{:U('/Home/goods/lists',array('id'=>$v2['id']))}"><?php echo $v2['name'];?></a> 
 								<?php } ?>
                             </p>
                             <?php } ?>
@@ -253,7 +253,7 @@
 				<ul class="clearfix">
 					<li><a href="javascript:void(0)">综合</a></li>
 					<li><a href="javascript:void(0)">销量</a></li>
-					<li><a href="{:U('/goods/search',array('q'=>$q,'sort'=>'price','sort_asc'=>$sort_asc))}">价格<i class="money-changle"></i></a></li>
+					<li><a href="{:U('/Home/goods/search',array('q'=>$q,'sort'=>'price','sort_asc'=>$sort_asc))}">价格<i class="money-changle"></i></a></li>
 					<li><a href="javascript:void(0)">评价</a></li>
 					<li><a href="javascript:void(0)">新品</a></li>
 				</ul>
@@ -271,7 +271,7 @@
 			<?php foreach ($goods_list as $key => $value) { ?>
 				<div class="shop-buy">
 					<div class="buy-info">
-					    <a href="{:U('/goods/goodsInfo',array('id'=>$value['id']))}" class="info-a">
+					    <a href="{:U('/Home/goods/goodsInfo',array('id'=>$value['id']))}" class="info-a">
 					    <?php foreach ($value['imgs'] as $k => $v) { 
 					    	if($k == 0){ ?>
 					    		<img src="<?php echo $v['img'];?>" alt="" class="img ">
