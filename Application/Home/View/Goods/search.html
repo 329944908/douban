@@ -253,12 +253,12 @@
 				<ul class="clearfix">
 					<li><a href="javascript:void(0)">综合</a></li>
 					<li><a href="javascript:void(0)">销量</a></li>
-					<li><a href="javascript:void(0)">价格<i class="money-changle"></i></a></li>
+					<li><a href="{:U('/goods/search',array('q'=>$q,'sort'=>'price','sort_asc'=>$sort_asc))}">价格<i class="money-changle"></i></a></li>
 					<li><a href="javascript:void(0)">评价</a></li>
 					<li><a href="javascript:void(0)">新品</a></li>
 				</ul>
 				<div class="ji-number clearfix">
-					<span>共31个商品</span>
+					<span>共<?php echo $count;?>个商品</span>
 					<div class="number-list">
 						<a class="list-left" href="javascript:void(0)"><</a>
 						<div>

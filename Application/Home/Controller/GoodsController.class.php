@@ -110,8 +110,8 @@ class GoodsController extends Controller {
         $filter_param = array(); // 帅选数组                        
         $id = I('get.id/d', 0); // 当前分类id
         //$brand_id = I('brand_id', 0);
-        //$sort = I('sort', 'goods_id'); // 排序
-        //$sort_asc = I('sort_asc', 'asc'); // 排序
+        $sort = I('sort', 'id'); // 排序
+        $sort_asc = I('sort_asc', 'asc'); // 排序
         //$price = I('price', ''); // 价钱
         //$start_price = trim(I('start_price', '0')); // 输入框价钱
         //$end_price = trim(I('end_price', '0')); // 输入框价钱
@@ -136,7 +136,6 @@ class GoodsController extends Controller {
         $goodsHaveSearchWord =$goodsModel->where($where)->count();
         if ($goodsHaveSearchWord) {
             $SearchWordIsHave = $searchWordModel ->where(array('keywords'=>$q))->find();
-            // var_dump($SearchWordIsHave);die();
             if($SearchWordIsHave){
                 $searchWordModel->where(array('id',$SearchWordIsHave['id']))->setField(array('goods_num'=>$goodsHaveSearchWord));
             }else{
@@ -157,18 +156,18 @@ class GoodsController extends Controller {
         $search_goods = $goodsModel->where($where)->getField('id,classify_id');
         $filter_goods_id = array_keys($search_goods);
         $filter_classify_id = array_unique($search_goods); // 分类需要去重
-        // if ($filter_classify_id) {
-        //     $cateArr = M('goods_category')->where("id", "in", implode(',', $filter_cat_id))->select();
-        //     $tmp = $filter_param;
-        //     foreach ($cateArr as $k => $v) {
-        //         $tmp['id'] = $v['id'];
-        //         $cateArr[$k]['href'] = U("/Api/goods/search", $tmp);
-        //     }
-        // }
-        // 过滤帅选的结果集里面找商品        
+        if ($filter_classify_id) {
+            $cateArr = $classifyModel->where("id", "in", implode(',', $filter_cat_id))->select();
+            $tmp = $filter_param;
+            foreach ($cateArr as $k => $v) {
+                $tmp['id'] = $v['id'];
+                $cateArr[$k]['href'] = U("/goods/search", $tmp);
+            }
+        }
+        //过滤帅选的结果集里面找商品        
         // if ($brand_id || $price) {
         //     // 品牌或者价格
-        //     $goods_id_1 = $goodsLogic->getGoodsIdByBrandPrice($brand_id, $price); // 根据 品牌 或者 价格范围 查找所有商品id
+        //     $goods_id_1 = $goodsModel->getGoodsIdByBrandPrice($brand_id, $price); // 根据 品牌 或者 价格范围 查找所有商品id
         //     $filter_goods_id = array_intersect($filter_goods_id, $goods_id_1); // 获取多个帅选条件的结果 的交集
         // }
         //$filter_menu = $goodsLogic->get_filter_menu($filter_param, 'search'); // 获取显示的帅选菜单
@@ -178,7 +177,7 @@ class GoodsController extends Controller {
         $count = count($filter_goods_id);
         $page = new Page($count, 20);
         if ($count > 0) {
-            $goods_list = $goodsModel->where(['status' => 1, 'id' => ['in', implode(',', $filter_goods_id)]])->limit($page->firstRow . ',' . $page->listRows)->select();
+            $goods_list = $goodsModel->where(['status' => 1, 'id' => ['in', implode(',', $filter_goods_id)]])->order("$sort $sort_asc")->limit($page->firstRow . ',' . $page->listRows)->select();
             foreach ($goods_list as $key => $value) {
             $goods_image = $goodsPicModel->getPic($value['id']);
             if($goods_image){
@@ -195,8 +194,15 @@ class GoodsController extends Controller {
         }
         //var_dump($goods_images);
         // var_dump($goods_list);die();
+        if($sort_asc=='asc'){
+            $sort_asc='desc';
+        }else{
+            $sort_asc='asc';
+        }
+        $this->assign('sort_asc', $sort_asc);
+        $this->assign('count', $count);
         $this->assign('goods_list', $goods_list);
-         $this->assign('classify_data',$classify_data);
+        $this->assign('classify_data',$classify_data);
         //var_dump($goods_list)
         // $this->assign('goods_images', $goods_images);  // 相册图片
         //$this->assign('filter_menu', $filter_menu);  // 帅选菜单
