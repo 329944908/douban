@@ -161,7 +161,7 @@ class GoodsController extends Controller {
             $tmp = $filter_param;
             foreach ($cateArr as $k => $v) {
                 $tmp['id'] = $v['id'];
-                $cateArr[$k]['href'] = U("/goods/search", $tmp);
+                $cateArr[$k]['href'] = U("/Home/goods/search", $tmp);
             }
         }
         //过滤帅选的结果集里面找商品        
