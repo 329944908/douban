@@ -61,7 +61,7 @@ class GoodsController extends Controller {
         $this->assign('goods',$goods);
         $this->display();
     }
-    public function goodsinfo(){
+    public function goodsInfo(){
         $goods_id = I('get.id',0);
         if(!preg_match("/^\d+$/", $goods_id)|| !$goods_id){
             _res('参数不合法',false,'1001');
