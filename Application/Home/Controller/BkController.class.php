@@ -126,8 +126,8 @@ class BkController extends Controller {
 		);
 		_res($result);
 	}
-	public function getListsByType($type_id=1){
-		$type_id = $_GET['type_id'];
+	public function getListsByType(){
+		$type_id = $_GET['type_id']?$_GET['type_id']:1;
 		$typs_conditions = array(
 			array(
 				'id'=>1,
