@@ -43,7 +43,7 @@ class BkController extends Controller {
 		);
 		$comments = array(
 			'tab_score'=>array(
-				array('name'=>'周围配套','scor3.6e'=>3.6),
+				array('name'=>'周围配套','score'=>3.6),
 				array('name'=>'交通方便','score'=>3.7),
 				array('name'=>'交通方便','score'=>4.2),
 			),
