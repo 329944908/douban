@@ -9,23 +9,15 @@ class BkController extends Controller {
 			'images'=>array(
 				array(
 					'id'=>1,
-					'image_path'=>'11'
+					'image_path'=>'https://image1.ljcdn.com/hdic-resblock/df800b5f-4430-4767-a5d4-4b07e547b988.jpg.1000x.jpg'
 				),
 				array(
 					'id'=>2,
-					'image_path'=>'22'
+					'image_path'=>'https://image1.ljcdn.com/hdic-resblock/c5715294-179e-40aa-938b-5f91ce5c1f48.jpg.1000x.jpg'
 				),
 				array(
 					'id'=>3,
-					'image_path'=>'33'
-				),
-				array(
-					'id'=>4,
-					'image_path'=>'44'
-				),
-				array(
-					'id'=>5,
-					'image_path'=>'55'
+					'image_path'=>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg'
 				),
 			),
 			'price'=>'630',
@@ -51,19 +43,19 @@ class BkController extends Controller {
 		);
 		$comments = array(
 			'tab_score'=>array(
-				'周围配套'=>3.6,
-				'交通方便'=>3.7,
-				'环境绿化'=>4.2
+				array('name'=>'周围配套','scor3.6e'=>3.6),
+				array('name'=>'交通方便','score'=>3.7),
+				array('name'=>'交通方便','score'=>4.2),
 			),
 			'comment'=>array(
 				array(
 					'user_id'=>11,
 					'user_name'=>'王晓易',
-					'user_image'=>'111',
+					'user_image'=>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 					'user_score'=>array(
-						'配套'=>3,
-						'交通'=>3,
-						'绿化'=>3,
+						array('name'=>'配套','score'=>3),
+						array('name'=>'交通','score'=>3),
+						array('name'=>'交通','score'=>3),
 					),
 					'user_comment'=>'离市区比较远，周边设施还在建设中，配套环境什么的也算还好，户型特别方正。平常逛街方便.......',
 					'create_time'=>'2017年07月26日',
@@ -71,11 +63,11 @@ class BkController extends Controller {
 				array(
 					'user_id'=>22,
 					'user_name'=>'马大哈',
-					'user_image'=>'222',
+					'user_image'=>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 					'user_score'=>array(
-						'配套'=>3.9,
-						'交通'=>3.9,
-						'绿化'=>3.9,
+						array('name'=>'配套','score'=>3.9),
+						array('name'=>'交通','score'=>3.9),
+						array('name'=>'交通','score'=>3.9),
 					),
 					'user_comment'=>'离市区比较远，周边设施还在建设中，配套环境什么的也算还好，户型特别方正。平常逛街方便.......',
 					'create_time'=>'2018年08月28日',
@@ -106,20 +98,21 @@ class BkController extends Controller {
 			array(
 				'id'=>1,
 				'title'=>'西山甲一号山甲',
-				'image'=>'1111',
+				'image'=>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'address'=>'朝阳 孙河板块',
 				'uprice'=>87152,
 			),
 			array(
 				'id'=>2,
 				'title'=>'霞公府',
-				'image'=>'22222',
+				'image'=>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'address'=>'东城北京饭店',
 				'uprice'=>62317,
 			),
 		);
 		$result = array(
 			'house_info' => $house_info,
+			'typs_conditions'=>$typs_conditions,
 			'comments'	 => $comments,
 			'questions'  => $questions,
 			'hotlists'   => $hotlists,
@@ -146,7 +139,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>1,
 				'title'  =>'三室',
-				'image'  =>'111',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>2,
@@ -155,7 +148,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>2,
 				'title'  =>'四室',
-				'image'  =>'222',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>1,
@@ -164,7 +157,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>3,
 				'title'  =>'两室',
-				'image'  =>'333',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>3,
@@ -173,7 +166,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>4,
 				'title'  =>'四室',
-				'image'  =>'444',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>1,
@@ -182,7 +175,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>5,
 				'title'  =>'三室',
-				'image'  =>'555',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>2,
@@ -191,7 +184,7 @@ class BkController extends Controller {
 			array(
 				'id'	 =>6,
 				'title'  =>'两室',
-				'image'  =>'666',
+				'image'  =>'https://image1.ljcdn.com/hdic-resblock/ba1250ad-8d72-4633-8e1b-7e08e13dccc1.jpg.1000x.jpg',
 				'status' =>1,
 				'price'  =>1876,
 				'type_id'=>3,
